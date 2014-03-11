@@ -113,3 +113,40 @@ sudo gem install iesd
 iesd -i InstallESD.dmg -o Mavericks.dmg -t BaseSystem
 ```
 
+* Vagrant 1.5.0 von http://www.vagrantup.com/downloads.html heruntergeladen und installiert
+
+```
+$ vagrant up
+Vagrant experienced a version conflict with some installed plugins!
+This usually happens if you recently upgraded Vagrant. As part of the
+upgrade process, some existing plugins are no longer compatible with
+this version of Vagrant. The recommended way to fix this is to remove
+your existing plugins and reinstall them one-by-one. To remove all
+plugins:
+
+    rm -r ~/.vagrant.d/plugins.json ~/.vagrant.d/gems
+
+The error message is shown below:
+
+Bundler could not find compatible versions for gem "celluloid":
+  In Gemfile:
+    vagrant-berkshelf (>= 0) ruby depends on
+      celluloid (~> 0.14.0) ruby
+
+    vagrant (= 1.5.0) ruby depends on
+      celluloid (0.15.2)
+```
+
+Also nochmal schnell die Liste der Plugins ermittelt:
+```
+cat plugins.json | python -mjson.tool
+sudo rm -rf .vagrant.d/gems .vagrant.d/plugins.json
+
+vagrant plugin install vagrant-berkshelf
+vagrant plugin install vagrant-cachier
+vagrant plugin install vagrant-pristine
+vagrant plugin install vagrant-vbox-snapshot
+vagrant plugin install vagrant-windows
+```
+* vagrant-berkshelf lässt sich dennoch nicht installieren. Siehe auch https://sethvargo.com/the-future-of-vagrant-berkshelf/
+
