@@ -105,3 +105,11 @@ sudo easy_install pip
 sudo pip install grip
 ```
 
+## 2014-03-11
+* Mavericks in einer VirtualBox
+* Siehe hier http://www.robertsetiadi.net/install-os-x-virtualbox/
+```
+sudo gem install iesd
+iesd -i InstallESD.dmg -o Mavericks.dmg -t BaseSystem
+```
+
