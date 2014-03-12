@@ -151,9 +151,16 @@ vagrant plugin install vagrant-windows
 * vagrant-berkshelf lässt sich dennoch nicht installieren. Siehe auch https://sethvargo.com/the-future-of-vagrant-berkshelf/
 
 ## 2014-03-12
-Beim nächsten Packer Update versuche ich mal Homebrew aus. Das steht bei Mitch http://www.packer.io/intro/getting-started/setup.html
+* Beim nächsten Packer Update versuche ich mal Homebrew aus. Das steht bei Mitch http://www.packer.io/intro/getting-started/setup.html
 ```
 $ brew tap homebrew/binary
 $ brew install packer
 ```
-
+* VirtualBox 4.3.6 ausprobiert, ob damit Mavericks geht. Hängt aber auch beim Booten. Also wieder auf 4.3.8 hoch.
+* Vagrant 1.5.0 meldet Warnungen wegen shared libs:
+```
+$ vagrant status
+WARNING: Could not load IOV methods. Check your GSSAPI C library for an update
+WARNING: Could not load AEAD methods. Check your GSSAPI C library for an update
+WARNING: Nokogiri was built against LibXML version 2.8.0, but has dynamically loaded 2.9.1
+```
