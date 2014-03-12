@@ -150,3 +150,10 @@ vagrant plugin install vagrant-windows
 ```
 * vagrant-berkshelf lässt sich dennoch nicht installieren. Siehe auch https://sethvargo.com/the-future-of-vagrant-berkshelf/
 
+## 2014-03-12
+Beim nächsten Packer Update versuche ich mal Homebrew aus. Das steht bei Mitch http://www.packer.io/intro/getting-started/setup.html
+```
+$ brew tap homebrew/binary
+$ brew install packer
+```
+
