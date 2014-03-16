@@ -164,3 +164,10 @@ WARNING: Could not load IOV methods. Check your GSSAPI C library for an update
 WARNING: Could not load AEAD methods. Check your GSSAPI C library for an update
 WARNING: Nokogiri was built against LibXML version 2.8.0, but has dynamically loaded 2.9.1
 ```
+
+## 2014-03-16
+* Updates aus dem Mac App Store
+* Command Line Dev Tool of OS X Version 5.1.0.0
+* Xcode Version 5.1
+* Microsoft Remote Desktop Version 8.0.5
+
