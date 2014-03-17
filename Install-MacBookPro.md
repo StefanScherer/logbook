@@ -171,3 +171,6 @@ WARNING: Nokogiri was built against LibXML version 2.8.0, but has dynamically lo
 * Xcode Version 5.1
 * Microsoft Remote Desktop Version 8.0.5
 
+## 2014-03-17
+* Update Vagrant 1.5.0 -> 1.5.1 via Download
+
