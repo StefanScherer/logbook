@@ -174,3 +174,6 @@ WARNING: Nokogiri was built against LibXML version 2.8.0, but has dynamically lo
 ## 2014-03-17
 * Update Vagrant 1.5.0 -> 1.5.1 via Download
 
+## 2014-03-19
+* Node.js 0.10.26 installiert per Download von http://nodejs.org
+*
