@@ -190,8 +190,12 @@ pkgutil --only-files --files org.nodejs.node.npm.pkg | xargs sudo rm
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 ```
 * Neues Terminal öffnen
+* globale npm Module können nun ohne sudo installiert werden
 ```bash
 nvm install v0.10.26
+nvm alias default 0.10.26
 npm install -g node-inspector
+npm install -g jshint
+npm install -g nodemon
 ```
-
+* `nvm use 0.10.26`
