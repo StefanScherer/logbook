@@ -180,4 +180,18 @@ WARNING: Nokogiri was built against LibXML version 2.8.0, but has dynamically lo
 ## 2014-03-20
 * `sudo npm install -g nodemon` -> nodemon 1.0.16
 * Chrome Browser installiert
+* Node und npm nochmal manuell entfernt
+* Link: http://flummox-engineering.blogspot.de/2013/11/how-to-uninstall-package-pkg-in-mac-os-x.html
+```bash
+pkgutil --pkgs | grep -i node
+cd /usr/local/
+pkgutil --only-files --files org.nodejs.pkg | xargs sudo rm 
+pkgutil --only-files --files org.nodejs.node.npm.pkg | xargs sudo rm 
+curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+```
+* Neues Terminal öffnen
+```bash
+nvm install v0.10.26
+npm install -g node-inspector
+```
 
