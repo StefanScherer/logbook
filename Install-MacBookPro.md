@@ -199,3 +199,5 @@ npm install -g jshint
 npm install -g nodemon
 ```
 * `nvm use 0.10.26`
+* `npm install -g jsontool`
+* `npm install -g js-beautify`
