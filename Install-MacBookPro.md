@@ -176,4 +176,8 @@ WARNING: Nokogiri was built against LibXML version 2.8.0, but has dynamically lo
 
 ## 2014-03-19
 * Node.js 0.10.26 installiert per Download von http://nodejs.org
-*
+
+## 2014-03-20
+* `sudo npm install -g nodemon` -> nodemon 1.0.16
+* Chrome Browser installiert
+
