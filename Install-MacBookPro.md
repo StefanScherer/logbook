@@ -201,3 +201,11 @@ npm install -g nodemon
 * `nvm use 0.10.26`
 * `npm install -g jsontool`
 * `npm install -g js-beautify`
+*
+## 2014-03-27
+* Meine Verzeichnisse geschützt
+```
+cd
+chmod 700 code iso tmp bin
+```
+
