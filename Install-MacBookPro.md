@@ -209,3 +209,15 @@ cd
 chmod 700 code iso tmp bin
 ```
 
+## 2014-04-06
+* `brew install wakeonlan`
+
+## 2014-04-13
+* Installation Sublime Text 3 von http://www.sublimetext.com/3 bzw. [Sublime Text 3 Build 3059](http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203059.dmg)
+* Link erzeugt, um `subl` aus der Kommandozeile aufrufen zu können. Siehe http://www.sublimetext.com/docs/2/osx_command_line.html
+
+```
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
+```
+
+* User Preferences sind hier: `Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings`
