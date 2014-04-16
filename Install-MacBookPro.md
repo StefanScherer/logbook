@@ -221,3 +221,20 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
 ```
 
 * User Preferences sind hier: `Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings`
+
+* Package Control installiert, nach Anleitung unter [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
+* Install Sublime Package Control (if you haven't done so already) from [here](http://wbond.net/sublime_packages/package_control) . Be sure to restart ST2 to complete the installation.
+
+* Bring up the command palette (default `ctrl+shift+p` or `cmd+shift+p`) and start typing `Package Control: Install Package` then press return or click on that option to activate it. You will be presented with a new Quick Panel with the list of available packages. Type `GoSublime` and press return or on its entry to install GoSublime. If there is no entry for GoSublime, you most likely already have it installed.
+
+
+## 2014-04-14
+* [Installation Go 1.2.1](http://golang.org/doc/install#osx)
+* Download [go1.2.1.darwin-amd64-osx10.8.pkg](https://code.google.com/p/go/downloads/detail?name=go1.2.1.darwin-amd64-osx10.8.pkg&can=2&q=OpSys-OSX+Type-Installer) und den Anweisungen folgen.
+* In den dotfiles ist in .exports bereits `export GOPATH=$HOME/go` eingetragen.
+* Nun nur noch ein `mkdir $HOME/go` auf dem Mac.
+* `mkdir -p $GOPATH/src/github.com/StefanScherer`
+
+## 2014-04-16
+* [Install Mercurial 2.9.1](http://mercurial.selenic.com/downloads)
+
