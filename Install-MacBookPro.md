@@ -238,3 +238,16 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
 ## 2014-04-16
 * [Install Mercurial 2.9.1](http://mercurial.selenic.com/downloads)
 
+## 2014-04-20
+* Developing packer
+```
+cd
+cd go/src/github.com
+mkdir mitchellh
+cd mitchellh/
+git clone git@github.com:StefanScherer/packer.git
+cd packer/
+git checkout packer-vcloud
+git remote add upstream https://github.com/mitchellh/packer.git
+```
+* Install Bazaar with `brew install bzr`
