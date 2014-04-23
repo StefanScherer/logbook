@@ -251,3 +251,7 @@ git checkout packer-vcloud
 git remote add upstream https://github.com/mitchellh/packer.git
 ```
 * Install Bazaar with `brew install bzr`
+
+## 2014-04-22
+* Update VirtualBox auf 4.3.10
+* Update Vagrant auf 1.5.4
