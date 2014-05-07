@@ -255,3 +255,7 @@ git remote add upstream https://github.com/mitchellh/packer.git
 ## 2014-04-22
 * Update VirtualBox auf 4.3.10
 * Update Vagrant auf 1.5.4
+
+## 2014-05-07
+* Download [CUDA Driver 6.0.37](http://www.nvidia.de/object/macosx-cuda-6.0.37-driver-de.html)
+
