@@ -258,4 +258,36 @@ git remote add upstream https://github.com/mitchellh/packer.git
 
 ## 2014-05-07
 * Download [CUDA Driver 6.0.37](http://www.nvidia.de/object/macosx-cuda-6.0.37-driver-de.html)
+* Download [Vagrant 1.6.0](https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.0.dmg)
+```
+$ vagrant --version
+Vagrant 1.6.0
+
+$ vagrant plugin list
+vagrant-cachier (0.7.0)
+vagrant-login (1.0.1, system)
+vagrant-pristine (0.3.0)
+vagrant-share (1.0.1, system)
+vagrant-vbox-snapshot (0.0.4)
+vagrant-windows (1.6.0)
+
+$ vagrant plugin
+Usage: vagrant plugin <command> [<args>]
+
+Available subcommands:
+     install
+     license
+     list
+     uninstall
+     update
+
+For help on any individual command run `vagrant plugin COMMAND -h`
+
+$ vagrant plugin update
+Updating installed plugins...
+Updated 'vagrant-cachier' to version '0.7.1'!
+
+$ vagrant plugin uninstall vagrant-windows
+Uninstalling the 'vagrant-windows' plugin...
+```
 
