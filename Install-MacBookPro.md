@@ -291,3 +291,30 @@ $ vagrant plugin uninstall vagrant-windows
 Uninstalling the 'vagrant-windows' plugin...
 ```
 
+## 2014-05-16
+* Vagrant 1.6.2 installed
+
+## 2014-05-22
+* Installed HTTpie
+
+If you want to do it from scratch, then:
+
+```bash
+install Homebrew on Mac
+# http://brew.sh
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew doctor
+
+# Install HTTPie on Mac
+# https://gist.github.com/BlakeGardner/5586954
+brew install python
+pip install httpie
+http
+```
+
+## 2014-05-24
+* Syncthing: `go get github.com/calmh/syncthing/cmd/syncthing`
+* jsonpp: `go get github.com/jmhodges/jsonpp`
+** Then you can pretty print json responses: `curl -s http://localhost:8080/rest/config | jsonpp`
+
+
