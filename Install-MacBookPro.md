@@ -318,3 +318,5 @@ http
 ** Then you can pretty print json responses: `curl -s http://localhost:8080/rest/config | jsonpp`
 
 
+## 2014-05-29
+* Update VirtualBox auf 4.3.12
