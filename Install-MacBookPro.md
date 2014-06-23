@@ -320,3 +320,6 @@ http
 
 ## 2014-05-29
 * Update VirtualBox auf 4.3.12
+
+## 2014-06-23
+* `brew install htop`
