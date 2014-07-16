@@ -331,3 +331,14 @@ http
 
 # 2014-07-15
 * Licensed and installed vagrant-vmware-fusion plugin. Now it's time for a box in a box (in a box) ...
+```
+vagrant plugin install vagrant-vmware-fusion
+vagrant plugin license vagrant-vmware-fusion license.lic
+```
+
+# 2014-07-16
+* Changed vagrant snapshot plugin to support more providers
+```
+vagrant plugin uninstall vagrant-vbox-snapshot
+vagrant plugin install vagrant-multiprovider-snap
+```
