@@ -328,3 +328,6 @@ http
 * Kid3 Tag Editor download from http://downloads.sourceforge.net/project/kid3/kid3/3.1/kid3-3.1.0-Darwin.dmg?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fkid3%2Ffiles%2F%3Fsource%3Dnavbar&ts=1404634152&use_mirror=cznic
 * `sudo pip install buster`
 * `brew install wget`
+
+# 2014-07-15
+* Licensed and installed vagrant-vmware-fusion plugin. Now it's time for a box in a box (in a box) ...
