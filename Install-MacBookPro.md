@@ -349,3 +349,4 @@ vagrant plugin install vagrant-multiprovider-snap
 ```
 curl -O http://download.adobe.com/pub/adobe/lightroom/mac/3.x/Lightroom_3_LS11_mac_3_6.dmg
 ```
+* Nice tip to update brew + cask: `brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
