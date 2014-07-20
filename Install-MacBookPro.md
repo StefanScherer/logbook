@@ -342,3 +342,10 @@ vagrant plugin license vagrant-vmware-fusion license.lic
 vagrant plugin uninstall vagrant-vbox-snapshot
 vagrant plugin install vagrant-multiprovider-snap
 ```
+
+# 2014-07-20
+* Install Adobe Photoshop Lightroom 3.6 as my license is for both Win + Mac
+* Interactive Download from http://www.adobe.com/support/downloads/detail.jsp?ftpID=5307
+```
+curl -O http://download.adobe.com/pub/adobe/lightroom/mac/3.x/Lightroom_3_LS11_mac_3_6.dmg
+```
