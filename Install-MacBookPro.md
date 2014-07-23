@@ -6,7 +6,7 @@
 * Benutzer Carina und Katja angelegt, Kinderschutz aktiviert
 * Benutzer Doris angelegt
 * Ins WLAN eingetragen
-* App Store -> Updates eingespielt, Mavericks bootet nochmal, weitere Updates eingespielt 
+* App Store -> Updates eingespielt, Mavericks bootet nochmal, weitere Updates eingespielt
 * Homebrew installiert
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
@@ -22,16 +22,16 @@ brew doctor
 Stefans-MacBook-Pro:~ stefan$ brew doctor
 Your system is ready to brew.
 Stefans-MacBook-Pro:~ stefan$ brew install virtualbox
-Error: No available formula for virtualbox 
+Error: No available formula for virtualbox
 Searching taps...
 Stefans-MacBook-Pro:~ stefan$ VBoxManage --version
 4.3.8r92456
 Stefans-MacBook-Pro:~ stefan$ brew install vagrant
-Error: No available formula for vagrant 
+Error: No available formula for vagrant
 Searching taps...
 homebrew/completions/vagrant-completion
 Stefans-MacBook-Pro:~ stefan$ brew install packer
-Error: No available formula for packer 
+Error: No available formula for packer
 Searching taps...
 homebrew/binary/packer
 ```
@@ -84,7 +84,7 @@ SSH Key eingespielt
 
 
 ## 2014-03-02
-* Virtual Box Extension Pack (PUEL license) installiert von https://www.virtualbox.org/wiki/Downloads 
+* Virtual Box Extension Pack (PUEL license) installiert von https://www.virtualbox.org/wiki/Downloads
 
 
 ## 2014-03-08
@@ -185,8 +185,8 @@ WARNING: Nokogiri was built against LibXML version 2.8.0, but has dynamically lo
 ```bash
 pkgutil --pkgs | grep -i node
 cd /usr/local/
-pkgutil --only-files --files org.nodejs.pkg | xargs sudo rm 
-pkgutil --only-files --files org.nodejs.node.npm.pkg | xargs sudo rm 
+pkgutil --only-files --files org.nodejs.pkg | xargs sudo rm
+pkgutil --only-files --files org.nodejs.node.npm.pkg | xargs sudo rm
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 ```
 * Neues Terminal öffnen
@@ -350,3 +350,18 @@ vagrant plugin install vagrant-multiprovider-snap
 curl -O http://download.adobe.com/pub/adobe/lightroom/mac/3.x/Lightroom_3_LS11_mac_3_6.dmg
 ```
 * Nice tip to update brew + cask: `brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
+
+# 2014-07-23
+* Use multiple SSH keys for Git access. See https://gist.github.com/jexchan/2351996
+* `cat ~/.ssh/config`
+```
+Host github.com-work
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa-work
+```
+* Then you add the second private key and clone repos with different host name
+```
+ssh-add ~/.ssh/id_rsa-work
+git clone git@github.com-work:org/repo
+```
