@@ -365,3 +365,4 @@ Host github.com-work
 ssh-add ~/.ssh/id_rsa-work
 git clone git@github.com-work:org/repo
 ```
+* List keys with `ssh-add -l`, delete all entries with `ssh-add -D`
