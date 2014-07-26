@@ -187,7 +187,7 @@ pkgutil --pkgs | grep -i node
 cd /usr/local/
 pkgutil --only-files --files org.nodejs.pkg | xargs sudo rm
 pkgutil --only-files --files org.nodejs.node.npm.pkg | xargs sudo rm
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+curl -L https://raw.github.com/creationix/nvm/master/install.sh | sh
 ```
 * Neues Terminal öffnen
 * globale npm Module können nun ohne sudo installiert werden
@@ -366,3 +366,7 @@ ssh-add ~/.ssh/id_rsa-work
 git clone git@github.com-work:org/repo
 ```
 * List keys with `ssh-add -l`, delete all entries with `ssh-add -D`
+
+# 2014-07-26
+* Update VirtualBox by download from http://download.virtualbox.org/virtualbox/4.3.14/VirtualBox-4.3.14-95030-OSX.dmg
+
