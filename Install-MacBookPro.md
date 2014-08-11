@@ -370,3 +370,29 @@ git clone git@github.com-work:org/repo
 # 2014-07-26
 * Update VirtualBox by download from http://download.virtualbox.org/virtualbox/4.3.14/VirtualBox-4.3.14-95030-OSX.dmg
 
+# 2014-08-11
+* Update Vagrant Plugins
+```
+$ vagrant plugin list
+vagrant-cachier (0.8.0)
+vagrant-login (1.0.1, system)
+vagrant-multiprovider-snap (0.0.11.my20140805)
+  - Version Constraint: 0.0.11.my20140805
+vagrant-omnibus (1.4.1)
+vagrant-pristine (0.3.0)
+vagrant-serverspec (0.1.0)
+vagrant-share (1.1.0, system)
+vagrant-vmware-fusion (2.4.1)
+~
+$ vagrant plugin update
+Updating installed plugins...
+Updated 'vagrant-cachier' to version '0.9.0'!
+Updated 'vagrant-vmware-fusion' to version '2.5.2'!
+$ vagrant plugin uninstall vagrant-multiprovider-snap
+Uninstalling the 'vagrant-multiprovider-snap' plugin...
+~/code/logbook on master*
+$ vagrant plugin install vagrant-multiprovider-snap
+Installing the 'vagrant-multiprovider-snap' plugin. This can take a few minutes...
+Installed the plugin 'vagrant-multiprovider-snap (0.0.12)'!
+```
+
