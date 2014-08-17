@@ -396,3 +396,15 @@ Installing the 'vagrant-multiprovider-snap' plugin. This can take a few minutes.
 Installed the plugin 'vagrant-multiprovider-snap (0.0.12)'!
 ```
 
+# 2014-08-17
+* Install Tiger VNC viewer
+```bash
+sudo chown stefan /usr/local/include
+sudo chown stefan /usr/local/lib
+sudo chown stefan /usr/local/share/man/man3
+sudo chown stefan /usr/local/share/man/man5
+
+brew link xz
+brew install tiger-vnc
+```
+* Installs command `vncviewer`
