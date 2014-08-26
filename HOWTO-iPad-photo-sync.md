@@ -5,7 +5,7 @@ Apple makes us very hard to sync photos on the iPad, especially if you want them
 Here is my way to sync my photos.
 
 * Import photos from SD card with Windows Live Photo Gallery.
-* If you have photos with a wrong date, you can use `Bearbeiten` -> `Zeit anpassen` and change / shift the date for a bulk of photos.
+* If you have photos with a wrong date, you can use `Bearbeiten` -> `Zeit anpassen` and change / shift the date for a bulk of photos. Tip found [here](http://www.techairlines.com/batch-edit-photo-date-time/).
 * Mark good photos with eg. four stars.
 * Filter all good photos with eg. four stars.
 * Press `Ctrl + A` to select all (good) photos.
@@ -32,6 +32,7 @@ foreach $file (@files) {
   }
 }
 print "Done!\n";
+```
 
 * Open a cmd shell, change to the directory
 
