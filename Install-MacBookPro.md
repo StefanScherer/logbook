@@ -408,3 +408,15 @@ brew link xz
 brew install tiger-vnc
 ```
 * Installs command `vncviewer`
+
+# 2014-09-14
+```
+$ vagrant plugin update
+Updating installed plugins...
+Updated 'vagrant-share' to version '1.1.1'!
+Updated 'vagrant-vmware-fusion' to version '3.0.1'!
+```
+
+* VirtualBox 4.3.16 installed from .dmg download
+* Vagrant 1.6.5 installed from .dmg download
+
