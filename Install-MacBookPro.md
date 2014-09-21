@@ -398,6 +398,7 @@ Installed the plugin 'vagrant-multiprovider-snap (0.0.12)'!
 
 # 2014-08-17
 * Install Tiger VNC viewer
+
 ```bash
 sudo chown stefan /usr/local/include
 sudo chown stefan /usr/local/lib
@@ -420,3 +421,10 @@ Updated 'vagrant-vmware-fusion' to version '3.0.1'!
 * VirtualBox 4.3.16 installed from .dmg download
 * Vagrant 1.6.5 installed from .dmg download
 
+# 2014-09-21
+* Update Packer 0.6.1 -> 0.7.1
+```
+brew uninstall packer
+brew update
+brew install packer
+```
