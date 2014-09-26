@@ -36,7 +36,7 @@ Searching taps...
 homebrew/binary/packer
 ```
 
-hm, da fehlen wohl einige brew Pakete… also dann manuell
+hm, da fehlen wohl einige brew Pakete... also dann manuell
 
 * VirtualBox 4.3.8 von https://www.virtualbox.org/wiki/Downloads heruntergeladen und installiert
 * Vagrant 1.4.3 von http://www.vagrantup.com/downloads.html heruntergeladen und installiert
@@ -427,4 +427,36 @@ Updated 'vagrant-vmware-fusion' to version '3.0.1'!
 brew uninstall packer
 brew update
 brew install packer
+```
+
+# 2014-09-25
+* XCode 6.0.1 per Mac App Store installiert
+
+# 2014-09-26
+```
+sudo xcodebuild -license
+$ git --version
+git version 1.9.3 (Apple Git-50)
+```
+* Git update as described in http://kj-prince.com/code/install-git-mac-osx-homebrew/
+
+* Update XQuartz 2.7.7 via http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.7.dmg
+* Update GitHub for Mac which has installed `/usr/local/bin/git` version 1.8.4
+* removed links from /usr/local/bin/git
+
+```
+brew install git
+brew link git
+sudo rm /usr/local/bin/git*
+sudo rm -r /usr/local/share/git-core/
+rm -r /usr/local/share/man/man1/git*
+rm -r /usr/local/share/man/man3/git*
+rm -r /usr/local/share/man/man5/git*
+rm -r /usr/local/share/man/man7/git*
+sudo chown -R stefan /usr/local/lib/perl5/site_perl
+rm -r /usr/local/lib/perl5/site_perl/Git
+rm -r /usr/local/lib/perl5/site_perl/Git.pm 
+brew link git
+$ git --version
+git version 2.1.1
 ```
