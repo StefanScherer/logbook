@@ -455,8 +455,29 @@ rm -r /usr/local/share/man/man5/git*
 rm -r /usr/local/share/man/man7/git*
 sudo chown -R stefan /usr/local/lib/perl5/site_perl
 rm -r /usr/local/lib/perl5/site_perl/Git
-rm -r /usr/local/lib/perl5/site_perl/Git.pm 
+rm -r /usr/local/lib/perl5/site_perl/Git.pm
 brew link git
 $ git --version
 git version 2.1.1
+```
+
+# 2014-09-26
+* Enter [panamax.io](http://panamax.io)
+```
+brew install http://download.panamax.io/installer/brew/panamax.rb
+panamax init
+panamax
+```
+* List of [panamax commands](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands)
+
+# 2014-09-30
+* Update XQuartz 2.7.7 from dmg
+* Installed `BashUpdateMavericks.dmg` to fix shellshock bash bug
+* Install Atom with Homebrew
+```
+brew doctor
+brew update
+brew prune
+brew install caskroom/cask/brew-cask
+brew cask install atom
 ```
