@@ -481,3 +481,12 @@ brew prune
 brew install caskroom/cask/brew-cask
 brew cask install atom
 ```
+
+# 2014-10-01
+```
+$ vagrant plugin update
+Updating installed plugins...
+Updated 'vagrant-cachier' to version '1.0.0'!
+Updated 'vagrant-multiprovider-snap' to version '0.0.13'!
+Updated 'vagrant-share' to version '1.1.2'!
+```
