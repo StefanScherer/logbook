@@ -490,3 +490,8 @@ Updated 'vagrant-cachier' to version '1.0.0'!
 Updated 'vagrant-multiprovider-snap' to version '0.0.13'!
 Updated 'vagrant-share' to version '1.1.2'!
 ```
+
+# 2014-10-03
+```
+brew install jq
+```
