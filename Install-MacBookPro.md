@@ -495,3 +495,10 @@ Updated 'vagrant-share' to version '1.1.2'!
 ```
 brew install jq
 ```
+
+# 2014-10-04
+* Installed Atom syntax highlighter for Vagrant development
+```
+apm install language-powershell
+apm install language-batch
+```
