@@ -502,3 +502,9 @@ brew install jq
 apm install language-powershell
 apm install language-batch
 ```
+
+# 2014-10-12
+* Update Panamax to 0.3.0
+```
+brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax reinstall
+```
