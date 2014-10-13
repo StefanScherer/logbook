@@ -5,13 +5,20 @@ but you can use `apt-get`
 
 ## How to install with apt-get
 1. Decide if you want the server to support displaying artwork embedded in media files. Support for this means that the install process will upgrade your standard Wheezy libav package to the newer version 9 - and that might be a problem if you have other stuff that depends on the stock version of libav.
-2a. So, do you want embedded artwork and libav 9? Then add this line to /etc/apt/sources.list:
+2. So, do you want embedded artwork and libav 9? Then add this line to `/etc/apt/sources.list`:
+```
 deb http://www.gyfgafguf.dk/raspbian wheezy-backports/armhf/
-2b. Or do you not want embedded artwork and libav 9? Then add this line to /etc/apt/sources.list:
+```
+3. Or do you not want embedded artwork and libav 9? Then add this line to `/etc/apt/sources.list`:
+```
 deb http://www.gyfgafguf.dk/raspbian wheezy/armhf/
-3. Run sudo apt-get update and then sudo apt-get install forked-daapd
-4. Edit the config file /etc/forked-daapd.conf and (re)start the server with sudo /etc/init.d/forked-daapd restart
+```
 
+4. Run `sudo apt-get update` and then `sudo apt-get install forked-daapd`
+5. Edit the config file `/etc/forked-daapd.conf` and (re)start the server with `sudo /etc/init.d/forked-daapd restart`
+
+
+Here are my steps:
 
 ```bash
 $ sudo vi /etc/apt/sources.list
