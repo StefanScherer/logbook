@@ -508,3 +508,9 @@ apm install language-batch
 ```
 brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax reinstall
 ```
+
+# 2014-10-17
+* Update to OS X Yosemite
+* Update VMware Fusion 6.0.5
+* many other updates for Yosemite
+
