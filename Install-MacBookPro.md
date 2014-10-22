@@ -512,5 +512,8 @@ brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax rei
 # 2014-10-17
 * Update to OS X Yosemite
 * Update VMware Fusion 6.0.5
-* many other updates for Yosemite
+* many other updates for Yosemite (iMove, Pages, Command Line Developer Tools, Numbers, GarageBand ...)
+
+# 2014-10-21
+* Update Xcode 6.1
 
