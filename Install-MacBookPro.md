@@ -517,3 +517,8 @@ brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax rei
 # 2014-10-21
 * Update Xcode 6.1
 
+# 2014-10-25
+* Quartz 2.7.7 installed from dmg
+* Wireshark 1.12.1 installed from dmg
+* Checked that symlink exists `sudo ln -s /opt/X11 /usr/X11`
+* To enabled Quartz X11 Retina display mode, see http://osxdaily.com/2012/01/12/enable-hidpi-mode-in-mac-os-x-lion/ but I haven't done it yet.
