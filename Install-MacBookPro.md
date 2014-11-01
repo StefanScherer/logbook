@@ -522,3 +522,11 @@ brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax rei
 * Wireshark 1.12.1 installed from dmg
 * Checked that symlink exists `sudo ln -s /opt/X11 /usr/X11`
 * To enabled Quartz X11 Retina display mode, see http://osxdaily.com/2012/01/12/enable-hidpi-mode-in-mac-os-x-lion/ but I haven't done it yet.
+
+# 2014-11-01
+* Update Microsoft Remote Desktop 8.0.10 (and catched download)
+* `brew install exiftool`
+* Say good bye to so funny words like `Sockelserver` instead of `Socketserver` and turned off the auto correction
+* `Einstellungen -> Tastatur -> Text`, then uncheck the `Automatische Korrektur`
+* Works on iPhone as well, same names there
+
