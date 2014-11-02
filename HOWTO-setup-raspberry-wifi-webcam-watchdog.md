@@ -1,5 +1,10 @@
 # HowTo setup a watchdog for your heat pump
 
+This little sunday project started under the shower, after our heating stopped last night once again with error "716". The water was a little cold. You only have to press two buttons (some kind of ctrl-alt-delete) and it works again. This only happens in spring and autumn where the heating is on but the weather is fine. And it only happens once in a while.
+But walking downstairs to the heat pump is way too far to do it every evening.
+
+A good article is [Rasperry Pi as low cost HD surveillance camera](http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera) for all these steps.
+
 ## Parts
 
 * RaspberryPi
@@ -121,4 +126,3 @@ mkdir /home/pi/code/watchdog/images
 
 * [Basic Image Processing](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/image_processing/)
 * [Blob Detection](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/blob_detection/)
-
