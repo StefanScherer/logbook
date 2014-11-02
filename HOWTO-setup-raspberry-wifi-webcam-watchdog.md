@@ -9,7 +9,7 @@
 
 ## Setup WiFi
 
-Followed instructions in [How-To: Add WiFi to the Raspberry Pi](http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/)
+Followed instructions in [How-To: Add WiFi to the Raspberry Pi](http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/) and [Raspberry Pi – WLAN einrichten (Edimax)](http://www.datenreise.de/raspberry-pi-wlan-einrichten-edimax/)
 
 ```bash
 dmesg | more
@@ -37,3 +37,4 @@ Edit you SSID and PSK and save the file.
 sudo service networking reload
 ifconfig
 ```
+
