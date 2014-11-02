@@ -38,7 +38,31 @@ sudo service networking reload
 ifconfig
 ```
 
-## Setup Camera
+## Setup Camera - motion
+
+The LifeCam HD-3000 works out of the box, so I only need some tools to take pictures. Followed the instructions at [Überwachungscamera / Webcam-Server installieren](http://www.forum-raspberrypi.de/Thread-tutorial-ueberwachungscamera-webcam-server-installieren) to setup a live cam.
+
+```bash
+sudo apt-get install motion
+sudo vi /etc/default/motion
+-> start_motion_daemon=yes
+sudo mkdir /srv/motion
+sudo chown motion.motion /srv/motion
+sudo vi /etc/motion/motion.conf
+sudo /etc/init.d/motion restart
+```
+
+```html
+<iframe src="http://RPIIP:8081/?action=stream" height="640" width="480" frameborder="0"></iframe>
+```
+
+Open a browser with this URL:
+
+```
+http://RPIIP:8081/?action=stream
+```
+
+## Setup Camera - fswebcam
 
 The LifeCam HD-3000 works out of the box, so I only need some tools to take pictures.
 Followed the instructions at [
