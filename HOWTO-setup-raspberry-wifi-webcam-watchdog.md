@@ -1,4 +1,4 @@
-# HowTo Setup RaspberryPi WiFi and Webcam to build a Watchdog for my heat pump
+# HowTo setup a watchdog for your heat pump
 
 ## Parts
 
