@@ -49,7 +49,7 @@ sudo vi /etc/default/motion
 sudo mkdir /srv/motion
 sudo chown motion.motion /srv/motion
 sudo vi /etc/motion/motion.conf
-sudo /etc/init.d/motion restart
+sudo service motion restart
 ```
 
 ```html
