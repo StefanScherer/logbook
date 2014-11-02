@@ -38,3 +38,63 @@ sudo service networking reload
 ifconfig
 ```
 
+## Setup Camera
+
+The LifeCam HD-3000 works out of the box, so I only need some tools to take pictures.
+Followed the instructions at [
+Timelapse movie with Raspberry Pi and fswebcam](http://martin-denizet.com/timelapse-movie-with-raspberry-pi/).
+
+```bash
+sudo apt-get update
+sudo apt-get install fswebcam
+```
+
+config file `/home/pi/code/watchdog/fswebcam.conf`
+
+```
+device /dev/video0
+resolution 1280x720
+no-banner
+jpeg 90
+loop 30
+background
+save /home/pi/code/watchdog/images/last.jpg
+delay 1
+skip 30
+```
+
+rename script `/home/pi/code/watchdog/rename.sh`
+
+```bash
+#!/bin/sh
+DATE=`date -u +"%Y-%m-%dT%H-%M-%SZ"`.jpg
+mv /home/pi/code/watchdog/images/last.jpg /home/pi/code/watchdog/images/$DATE
+```
+
+start script
+
+```bash
+#!/bin/sh
+fswebcam -c /home/pi/code/watchdog/fswebcam.conf --exec /home/pi/code/watchdog/rename.sh
+```
+
+stop script
+
+```bash
+#!/bin/sh
+killall fswebcam
+```
+
+image folder
+
+```bash
+mkdir /home/pi/code/watchdog/images
+```
+
+
+
+## Next steps
+
+* [Basic Image Processing](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/image_processing/)
+* [Blob Detection](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/blob_detection/)
+
