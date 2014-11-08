@@ -530,3 +530,5 @@ brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax rei
 * `Einstellungen -> Tastatur -> Text`, then uncheck the `Automatische Korrektur`
 * Works on iPhone as well, same names there
 
+# 2014-11-20
+* VirtualBox 4.3.18 installed from .dmg download
