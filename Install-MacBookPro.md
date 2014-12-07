@@ -532,3 +532,14 @@ brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax rei
 
 # 2014-11-20
 * VirtualBox 4.3.18 installed from .dmg download
+
+# 2014-12-03
+* VirtualBox 4.3.20 installed from .dmg download
+
+# 2014-12-07
+* Installed Disk Inventory X to clean up disk
+```bash
+brew update
+brew cask install disk-inventory-x
+```
+
