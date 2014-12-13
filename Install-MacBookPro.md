@@ -543,3 +543,14 @@ brew update
 brew cask install disk-inventory-x
 ```
 
+# 2014-12-13
+* Update homebrew-cask from 0.43 to 0.50
+```bash
+brew update
+brew unlink brew-cask
+brew install caskroom/cask/brew-cask
+```
+* Update packer 0.7.2 to 0.7.5
+```bash
+brew cask install packer
+```
