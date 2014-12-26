@@ -554,3 +554,19 @@ brew install caskroom/cask/brew-cask
 ```bash
 brew cask install packer
 ```
+
+# 2014-12-20
+* Update Vagrant 1.6.5 -> 1.7.1 by downloading dmg
+```
+$ vagrant plugin list
+vagrant-multiprovider-snap (0.0.14)
+vagrant-cucumber (0.0.8)
+vagrant-login (1.0.1, system)
+vagrant-omnibus (1.4.1)
+vagrant-pristine (0.3.0)
+vagrant-serverspec (0.1.0)
+  - Version Constraint: 0.1.0
+vagrant-share (1.1.2, system)
+vagrant-vcloud (0.4.3)
+vagrant-vmware-fusion (3.1.2)
+```
