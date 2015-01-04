@@ -570,3 +570,9 @@ vagrant-share (1.1.2, system)
 vagrant-vcloud (0.4.3)
 vagrant-vmware-fusion (3.1.2)
 ```
+
+# 2015-01-04
+* Install `github-release` via [GitHub repo aktau/github-release](https://github.com/aktau/github-release)
+```bash
+go get github.com/aktau/github-release
+```
