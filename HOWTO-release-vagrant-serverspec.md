@@ -37,3 +37,6 @@ github-release release --user StefanScherer --repo vagrant-serverspec --tag v0.5
 rake gem:build
 github-release upload --user StefanScherer --repo vagrant-serverspec --tag v0.5.0 --name vagrant-serverspec-0.5.0.gem --file pkg/vagrant-serverspec-0.5.0.gem 
 ```
+
+You can see the result at [my vagrant-serverspec releases](https://github.com/StefanScherer/vagrant-serverspec/releases).
+
