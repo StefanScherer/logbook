@@ -21,8 +21,10 @@ rake gem:build
 
 ## Install `github-release` binary
 
+If you have Go installed, you can just do:
+
 ```bash
-thub.com/aktau/github-release
+go get github.com/aktau/github-release
 ```
 
 ## Build the GitHub release
