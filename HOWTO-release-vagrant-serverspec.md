@@ -40,3 +40,12 @@ github-release upload --user StefanScherer --repo vagrant-serverspec --tag v0.5.
 
 You can see the result at [my vagrant-serverspec releases](https://github.com/StefanScherer/vagrant-serverspec/releases).
 
+## Install this gem
+
+To install this gem on another machine you can use these steps:
+
+```bash
+vagrant plugin uninstall vagrant-serverspec
+curl -o vagrant-serverspec-0.5.0.gem -L https://github.com/StefanScherer/vagrant-serverspec/releases/download/v0.5.0/vagrant-serverspec-0.5.0.gem
+vagrant plugin install vagrant-serverspec-0.5.0.gem
+```
