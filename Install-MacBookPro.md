@@ -576,3 +576,17 @@ vagrant-vmware-fusion (3.1.2)
 ```bash
 go get github.com/aktau/github-release
 ```
+
+# 2015-01-08
+* Update Python and pip to install virtualenv
+```bash
+brew install python
+pip install virtualenv
+```
+
+```bash
+$ python --version
+Python 2.7.9
+$ pip --version
+pip 1.5.6 from /usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip-1.5.6-py2.7.egg (python 2.7)
+```
