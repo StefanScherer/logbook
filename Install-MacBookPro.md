@@ -590,3 +590,7 @@ Python 2.7.9
 $ pip --version
 pip 1.5.6 from /usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip-1.5.6-py2.7.egg (python 2.7)
 ```
+
+# 2015-01-09
+* Installed `hub` the command line tool for GitHub via `brew install --HEAD hub`
+* See [https://hub.github.com](https://hub.github.com)
