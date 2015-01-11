@@ -594,3 +594,9 @@ pip 1.5.6 from /usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versio
 # 2015-01-09
 * Installed `hub` the command line tool for GitHub via `brew install --HEAD hub`
 * See [https://hub.github.com](https://hub.github.com)
+
+# 2015-01-11
+* Installed vagrant-triggers Plugin
+```bash
+vagrant plugin install vagrant-triggers
+```
