@@ -600,3 +600,11 @@ pip 1.5.6 from /usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versio
 ```bash
 vagrant plugin install vagrant-triggers
 ```
+
+# 2015-01-12
+* Installed VLC Player with `brew cask install vlc`, is in `~/Applications/VLC.app/Contents/MacOS/VLC`
+* Installed Kodi (XMBC) to test IPTV
+
+# 2015-01-13
+* Installed `tree` with `brew install tree`
+
