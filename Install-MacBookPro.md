@@ -608,3 +608,5 @@ vagrant plugin install vagrant-triggers
 # 2015-01-13
 * Installed `tree` with `brew install tree`
 
+# 2015-01-15
+* Installed SizeUp with `brew cask install sizeup`
