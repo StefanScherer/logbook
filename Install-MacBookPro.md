@@ -610,3 +610,20 @@ vagrant plugin install vagrant-triggers
 
 # 2015-01-15
 * Installed SizeUp with `brew cask install sizeup`
+
+# 2015-01-21
+* Install Vagrant plugin `vagrant-hostmanager`
+```bash
+$ vagrant plugin list
+vagrant-multiprovider-snap (0.0.14)
+vagrant-cucumber (0.0.8)
+vagrant-hostmanager (1.5.0)
+vagrant-omnibus (1.4.1)
+vagrant-pristine (0.3.0)
+vagrant-reload (0.0.1)
+vagrant-serverspec (0.5.0)
+  - Version Constraint: 0.5.0
+vagrant-share (1.1.4, system)
+vagrant-triggers (0.5.0)
+vagrant-vmware-fusion (3.2.0)
+```
