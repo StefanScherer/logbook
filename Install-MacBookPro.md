@@ -627,3 +627,7 @@ vagrant-share (1.1.4, system)
 vagrant-triggers (0.5.0)
 vagrant-vmware-fusion (3.2.0)
 ```
+
+# 2015-01-28
+* Update 10.10.2
+* 1Password 5.1
