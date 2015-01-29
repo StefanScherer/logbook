@@ -634,3 +634,4 @@ vagrant-vmware-fusion (3.2.0)
 
 # 2015-01-29
 * `brew install ssh-copy-id` - then you can `ssh-copy-id user@remote && ssh user@remote`
+* `brew install p7zip` to use `7za`
