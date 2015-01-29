@@ -631,3 +631,6 @@ vagrant-vmware-fusion (3.2.0)
 # 2015-01-28
 * Update 10.10.2
 * 1Password 5.1
+
+# 2015-01-29
+* `brew install ssh-copy-id` - then you can `ssh-copy-id user@remote && ssh user@remote`
