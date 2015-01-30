@@ -2,6 +2,7 @@
 
 # 2015-01-30
 * Installed Linux Mint 17.1 Cinnamon
+* F12 -> enable UEFI boot
 * Graphic card problems on second monitor (multiple mouse symbols)
 * NVIDIA Corporation: GF119M [NVS 4200M] - use nvidia-331 driver Version 331.113-0ubuntu0.0.4
 * Installed dotfiles
