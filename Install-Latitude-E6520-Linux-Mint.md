@@ -17,5 +17,12 @@ sudo apt-get install virtualbox-4.3
 vagrant plugin install vagrant-cucumber
 vagrant plugin install vagrant-multiprovider-snap
 vagrant plugin install vagrant-pristine
+sudo apt-get install curl
 ```
-
+* Install GVM
+```bash
+bash < <(curl -L -s https://raw.github.com/moovweb/gvm/master/binscripts/gvm-installer)
+sudo apt-get install mercurial bison
+gvm install go1.3
+gvm use go1.3 --default
+```
