@@ -27,3 +27,13 @@ sudo apt-get install mercurial bison
 gvm install go1.3
 gvm use go1.3 --default
 ```
+* Install hub
+```
+git clone https://github.com/github/hub.git
+cd hub
+script/build
+mv ./hub ~/bin
+```
+* Download and installed Sublime Text 3
+* Download and installed Atom
+
