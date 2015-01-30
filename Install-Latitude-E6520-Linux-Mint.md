@@ -36,4 +36,15 @@ mv ./hub ~/bin
 ```
 * Download and installed Sublime Text 3
 * Download and installed Atom
-
+* Install Packer 0.7.5
+```bash
+sudo mkdir -p /opt/packer
+pushd /opt/packer
+sudo wget --no-verbose https://dl.bintray.com/mitchellh/packer/packer_0.7.5_linux_amd64.zip
+sudo unzip packer_0.7.5_linux_amd64.zip
+sudo rm packer_0.7.5_linux_amd64.zip
+pushd /usr/bin
+sudo ln -s /opt/packer/* .
+popd
+popd
+```
