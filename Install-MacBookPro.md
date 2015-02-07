@@ -640,3 +640,4 @@ vagrant-vmware-fusion (3.2.0)
 # 2015-02-07
 * `brew install pv`
 * `brew install pigz`
+* `brew cask install macpass`
