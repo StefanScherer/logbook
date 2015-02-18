@@ -641,3 +641,7 @@ vagrant-vmware-fusion (3.2.0)
 * `brew install pv`
 * `brew install pigz`
 * `brew cask install macpass`
+
+# 2015-02-18
+* Update to VirtualBox 4.3.22
+
