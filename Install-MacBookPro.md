@@ -645,3 +645,10 @@ vagrant-vmware-fusion (3.2.0)
 # 2015-02-18
 * Update to VirtualBox 4.3.22
 
+# 2015-02-23
+* Installed Keybase.io
+```bash
+npm install -g keybase-installer
+keybase-installer
+```
+
