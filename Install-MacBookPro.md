@@ -652,3 +652,7 @@ npm install -g keybase-installer
 keybase-installer
 ```
 
+# 2015-02-27
+* installed `drone` command line tool
+* `brew tap drone/drone`
+* `brew install drone`
