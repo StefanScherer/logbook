@@ -656,3 +656,10 @@ keybase-installer
 * installed `drone` command line tool
 * `brew tap drone/drone`
 * `brew install drone`
+
+# 2015-03-06
+* Update VirtualBox 4.3.24
+
+# 2015-03-07
+* `brew cask install fritzing`
+
