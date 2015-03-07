@@ -662,4 +662,4 @@ keybase-installer
 
 # 2015-03-07
 * `brew cask install fritzing`
-
+* Downloaded Wireshark 1.99.3 - now without X11!
