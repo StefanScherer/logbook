@@ -663,3 +663,10 @@ keybase-installer
 # 2015-03-07
 * `brew cask install fritzing`
 * Downloaded Wireshark 1.99.3 - now without X11!
+
+# 2015-03-13
+* Install `docker-machine` from https://docs.docker.com/machine/
+* `docker-machine create --driver virtualbox dev`
+* `brew install docker` to install the Docker 1.5.0 client
+* To point your Docker client at it, run this `$(docker-machine env dev)`
+* See also http://flurdy.com/docs/docker/docker_compose_machine_swarm_cloud.html
