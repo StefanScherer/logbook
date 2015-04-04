@@ -664,6 +664,9 @@ keybase-installer
 * `brew cask install fritzing`
 * Downloaded Wireshark 1.99.3 - now without X11!
 
+# 2015-03-11
+* `brew install meld`
+
 # 2015-03-13
 * Install `docker-machine` from https://docs.docker.com/machine/
 * `docker-machine create --driver virtualbox dev`
