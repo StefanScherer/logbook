@@ -673,4 +673,4 @@ keybase-installer
 
 # 2015-04-04
 * Install Fritzing 0.9.2, now with Pi 2 Parts
-
+* `brew cask install nosleep`
