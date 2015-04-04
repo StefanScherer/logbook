@@ -670,3 +670,7 @@ keybase-installer
 * `brew install docker` to install the Docker 1.5.0 client
 * To point your Docker client at it, run this `$(docker-machine env dev)`
 * See also http://flurdy.com/docs/docker/docker_compose_machine_swarm_cloud.html
+
+# 2015-04-04
+* Install Fritzing 0.9.2, now with Pi 2 Parts
+
