@@ -681,3 +681,21 @@ keybase-installer
 # 2015-04-10
 * Download and update VirtualBox 4.3.26
 
+# 2015-05-09
+* Update to VMware Fusion 7.1.1
+* Next `vagrant up` shows this:
+
+```
+$ vagrant up esxi60 --provider vmware_fusion
+Bringing machine 'esxi60' up with 'vmware_fusion' provider...
+You're using a license that doesn't allow you to use the installed
+version of Fusion. This error message occurs if you upgraded Fusion
+without also upgrading your license. Please upgrade your license to
+unlock features and support for the latest version of VMware Fusion,
+or revert your version of Fusion back to the supported version.
+You can upgrade your license by going to the following URL:
+
+http://license.hashicorp.com/upgrade/vmware2014
+```
+* Purchased new Vagrant license
+* `vagrant plugin license vagrant-vmware-fusion ~/Downloads/license.lic`
