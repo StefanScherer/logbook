@@ -708,3 +708,4 @@ http://license.hashicorp.com/upgrade/vmware2014
 
 # 2015-05-16
 * `brew install jingweno/ccat/ccat`
+* `brew install pass`
