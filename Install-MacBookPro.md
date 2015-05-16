@@ -681,6 +681,12 @@ keybase-installer
 # 2015-04-10
 * Download and update VirtualBox 4.3.26
 
+# 2015-05-07
+* Installed new Docker binaries:
+* `brew install docker`
+* `brew install docker-machine`
+* `brew install docker-compose`
+
 # 2015-05-09
 * Update to VMware Fusion 7.1.1
 * Next `vagrant up` shows this:
