@@ -716,3 +716,11 @@ http://license.hashicorp.com/upgrade/vmware2014
 * `pass git init`
 * `pass insert digital_ocean_token`
 * `pass show digital_ocean_token`
+
+# 2015-06-25
+* Record Mac audio output with Soundflower
+* `brew cask install soundflower`
+
+# 2015-06-25
+* Upgrade VMware Fusion 7.1.2
+
