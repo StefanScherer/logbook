@@ -709,3 +709,10 @@ http://license.hashicorp.com/upgrade/vmware2014
 # 2015-05-16
 * `brew install jingweno/ccat/ccat`
 * `brew install pass`
+
+# 2015-06-07
+* Storing some secret tokens with `pass`
+* `pass init scherer_stefan@icloud.com`
+* `pass git init`
+* `pass insert digital_ocean_token`
+* `pass show digital_ocean_token`
