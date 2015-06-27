@@ -706,6 +706,9 @@ http://license.hashicorp.com/upgrade/vmware2014
 * Purchased new Vagrant license
 * `vagrant plugin license vagrant-vmware-fusion ~/Downloads/license.lic`
 
+# 2015-05-13
+* `go get github.com/vmware/govmomi/govc`
+
 # 2015-05-16
 * `brew install jingweno/ccat/ccat`
 * `brew install pass`
