@@ -727,3 +727,5 @@ http://license.hashicorp.com/upgrade/vmware2014
 # 2015-06-25
 * Upgrade VMware Fusion 7.1.2
 
+# 2015-07-03
+* Upgrade packer 0.8.1 with `brew cask install packer`
