@@ -729,3 +729,26 @@ http://license.hashicorp.com/upgrade/vmware2014
 
 # 2015-07-03
 * Upgrade packer 0.8.1 with `brew cask install packer`
+*
+# 2015-07-11
+* Preparing update of Vagrant, still running 1.7.1 with these plugins
+```
+$ vagrant plugin list
+vagrant-azure (1.1.1)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-cucumber (0.0.10)
+vagrant-digitalocean (0.7.4)
+vagrant-esxi (0.0.1)
+vagrant-hostmanager (1.5.0)
+vagrant-omnibus (1.4.1)
+vagrant-pristine (0.3.0)
+vagrant-reload (0.0.1)
+vagrant-serverspec (1.0.1)
+vagrant-share (1.1.4, system)
+vagrant-triggers (0.5.0)
+vagrant-vmware-fusion (3.2.8)
+vagrant-vsphere (1.0.1)
+```
+* Installed Vagrant 1.7.3 by downloading dmg
+* Installed VirtualBox 5.0.0 by downloading dmg
+
