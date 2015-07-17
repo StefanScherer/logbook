@@ -729,7 +729,7 @@ http://license.hashicorp.com/upgrade/vmware2014
 
 # 2015-07-03
 * Upgrade packer 0.8.1 with `brew cask install packer`
-*
+
 # 2015-07-11
 * Preparing update of Vagrant, still running 1.7.1 with these plugins
 ```
