@@ -752,3 +752,9 @@ vagrant-vsphere (1.0.1)
 * Installed Vagrant 1.7.3 by downloading dmg
 * Installed VirtualBox 5.0.0 by downloading dmg
 
+# 2015-07-17
+* Update Atom to version 1.0.2
+* `go get -u github.com/golang/lint/golint`
+* `go get -v code.google.com/p/rog-go/exp/cmd/godef`
+* `go get golang.org/x/tools/cmd/goimports`
+* `amp install go-plus`
