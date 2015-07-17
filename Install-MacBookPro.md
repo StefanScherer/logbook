@@ -757,4 +757,4 @@ vagrant-vsphere (1.0.1)
 * `go get -u github.com/golang/lint/golint`
 * `go get -v code.google.com/p/rog-go/exp/cmd/godef`
 * `go get golang.org/x/tools/cmd/goimports`
-* `amp install go-plus`
+* `apm install go-plus`
