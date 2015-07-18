@@ -758,3 +758,8 @@ vagrant-vsphere (1.0.1)
 * `go get -v code.google.com/p/rog-go/exp/cmd/godef`
 * `go get golang.org/x/tools/cmd/goimports`
 * `apm install go-plus`
+
+# 2015-07-18
+* `brew cask install vagrant` update to Version 1.7.4
+* `brew cask install packer` update to Version 0.8.2
+
