@@ -769,3 +769,6 @@ vagrant-vsphere (1.0.1)
 * Updated dotfiles `.bash_profile`
 * `nvm install iojs`
 * `nvm alias default iojs`
+* Update docker-compose to 1.3.3, docker client to 1.7.1
+* `brew unlink fig && brew uninstall fig`
+* `brew install docker-compose`
