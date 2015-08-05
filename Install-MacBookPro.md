@@ -763,3 +763,9 @@ vagrant-vsphere (1.0.1)
 * `brew cask install vagrant` update to Version 1.7.4
 * `brew cask install packer` update to Version 0.8.2
 
+# 2015-08-05
+* Update to IO.js 3.0.0 and nvm 0.25.4
+* `brew install nvm`
+* Updated dotfiles `.bash_profile`
+* `nvm install iojs`
+* `nvm alias default iojs`
