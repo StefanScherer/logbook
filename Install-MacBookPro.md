@@ -772,3 +772,9 @@ vagrant-vsphere (1.0.1)
 * Update docker-compose to 1.3.3, docker client to 1.7.1
 * `brew unlink fig && brew uninstall fig`
 * `brew install docker-compose`
+
+# 2015-08-06
+* The Homebrew version of `docker-compose` shows SSL warnings. So I use the upstream release.
+* `brew uninstall docker-compose`
+* `curl -L https://github.com/docker/compose/releases/download/1.4.0rc3/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose`
+* `chmod +x /usr/local/bin/docker-compose`
