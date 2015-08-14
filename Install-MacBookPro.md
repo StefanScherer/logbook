@@ -778,3 +778,9 @@ vagrant-vsphere (1.0.1)
 * `brew uninstall docker-compose`
 * `curl -L https://github.com/docker/compose/releases/download/1.4.0rc3/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose`
 * `chmod +x /usr/local/bin/docker-compose`
+
+# 2015-08-14
+* Installed new docker 1.8.1 and docker-machine 0.4.0 binaries:
+* `brew update`
+* `brew install docker`
+* `brew install docker-machine`
