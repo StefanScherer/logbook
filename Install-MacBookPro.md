@@ -784,3 +784,6 @@ vagrant-vsphere (1.0.1)
 * `brew update`
 * `brew install docker`
 * `brew install docker-machine`
+
+# 2015-08-17
+* Installed VirtualBox 5.0.2 by downloading dmg
