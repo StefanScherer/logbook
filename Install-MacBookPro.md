@@ -787,3 +787,12 @@ vagrant-vsphere (1.0.1)
 
 # 2015-08-17
 * Installed VirtualBox 5.0.2 by downloading dmg
+
+# 2015-08-23
+* Installed ImageMagick to add shadows to windows screenshots
+* `brew install imagemagick`
+* script `add-shadow`:
+```bash
+#!/bin/bash
+convert $1 \( +clone -background black -shadow 120x30+0+20 \) +swap -background transparent -layers merge +repage "$1-shadow.png"
+```
