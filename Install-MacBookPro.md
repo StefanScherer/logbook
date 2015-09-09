@@ -796,3 +796,12 @@ vagrant-vsphere (1.0.1)
 #!/bin/bash
 convert $1 \( +clone -background black -shadow 120x30+0+20 \) +swap -background transparent -layers merge +repage "$1-shadow.png"
 ```
+
+# 2015-09-09
+* Update to Node.js 4.0.0
+```
+nvm install 4.0
+nvm alias default node
+nvm reinstall-packages iojs
+npm install -g forany
+```
