@@ -805,3 +805,6 @@ nvm alias default node
 nvm reinstall-packages iojs
 npm install -g forany
 ```
+
+# 2015-09-18
+* Update docker 1.8.2, docker-machine 1.4.1 with Homebrew
