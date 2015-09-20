@@ -808,3 +808,7 @@ npm install -g forany
 
 # 2015-09-18
 * Update docker 1.8.2, docker-machine 1.4.1 with Homebrew
+
+# 2015-09-20
+* Xcode 7.0, iTunes 12.3
+
