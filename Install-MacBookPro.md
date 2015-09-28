@@ -852,4 +852,4 @@ Installing ri documentation for compass-1.0.3
 
 # 2015-09-28
 * `brew install socat` ( http://kartoza.com/how-to-run-a-linux-gui-application-on-osx-using-docker/ )
-
+* `socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
