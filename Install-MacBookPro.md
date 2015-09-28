@@ -812,3 +812,44 @@ npm install -g forany
 # 2015-09-20
 * Xcode 7.0, iTunes 12.3
 
+# 2015-09-22
+```
+$ sudo gem install compass
+Password:
+Sorry, try again.
+Password:
+Fetching: sass-3.4.18.gem (100%)
+Successfully installed sass-3.4.18
+Fetching: compass-core-1.0.3.gem (100%)
+Successfully installed compass-core-1.0.3
+Fetching: compass-import-once-1.0.5.gem (100%)
+Successfully installed compass-import-once-1.0.5
+Fetching: chunky_png-1.3.4.gem (100%)
+Successfully installed chunky_png-1.3.4
+Fetching: rb-fsevent-0.9.6.gem (100%)
+Successfully installed rb-fsevent-0.9.6
+Fetching: rb-inotify-0.9.5.gem (100%)
+Successfully installed rb-inotify-0.9.5
+Fetching: compass-1.0.3.gem (100%)
+Compass is charityware. If you love it, please donate on our behalf at http://umdf.org/compass Thanks!
+Successfully installed compass-1.0.3
+Parsing documentation for sass-3.4.18
+Installing ri documentation for sass-3.4.18
+Parsing documentation for compass-core-1.0.3
+Installing ri documentation for compass-core-1.0.3
+Parsing documentation for compass-import-once-1.0.5
+Installing ri documentation for compass-import-once-1.0.5
+Parsing documentation for chunky_png-1.3.4
+Installing ri documentation for chunky_png-1.3.4
+Parsing documentation for rb-fsevent-0.9.6
+Installing ri documentation for rb-fsevent-0.9.6
+Parsing documentation for rb-inotify-0.9.5
+Installing ri documentation for rb-inotify-0.9.5
+Parsing documentation for compass-1.0.3
+Installing ri documentation for compass-1.0.3
+7 gems installed
+```
+
+# 2015-09-28
+* `brew install socat` ( http://kartoza.com/how-to-run-a-linux-gui-application-on-osx-using-docker/ )
+
