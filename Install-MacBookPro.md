@@ -856,4 +856,15 @@ Installing ri documentation for compass-1.0.3
 
 # 2015-10-03
 * `brew install scw` - scaleway cli
-*
+
+# 2015-10-12
+* `brew unlink hugo`
+* `brew install hugo`
+
+# 2015-10-13
+* `brew install docker-compose`
+* `brew link --overwrite docker-compose`
+
+# 2015-10-16
+* Download and update VirtualBox 5.0.6
+
