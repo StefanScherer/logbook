@@ -868,3 +868,6 @@ Installing ri documentation for compass-1.0.3
 # 2015-10-16
 * Download and update VirtualBox 5.0.6
 
+# 2015-10-19
+* Install Packer 0.8.6 `brew install packer`, removed old links from Caskroom
+
