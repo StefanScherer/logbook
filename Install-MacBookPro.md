@@ -871,3 +871,7 @@ Installing ri documentation for compass-1.0.3
 # 2015-10-19
 * Install Packer 0.8.6 `brew install packer`, removed old links from Caskroom
 
+# 2015-10-23
+* Update to OSX El Capitan
+* Update GPG Keychain
+
