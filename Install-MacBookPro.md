@@ -875,3 +875,12 @@ Installing ri documentation for compass-1.0.3
 * Update to OSX El Capitan
 * Update GPG Keychain
 
+# 2015-11-08
+* Update docker 1.9.0, docker-machine 0.5.0, docker-compose 1.5.0 with brew
+
+# 2015-11-12
+* Compile docker-machine from source as new plugins could not be used with brew docker-machine 0.5.0 
+
+# 2015-11-14
+* Update VMware Fusion 7.1.3
+
