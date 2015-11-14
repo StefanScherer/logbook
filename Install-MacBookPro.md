@@ -882,6 +882,7 @@ Installing ri documentation for compass-1.0.3
 * Compile docker-machine from source as new plugins could not be used with brew docker-machine 0.5.0 
 
 # 2015-11-14
+* Update Atom 1.2.0
 * Update VMware Fusion 7.1.3
 * Update VirtualBox 5.0.10
 
