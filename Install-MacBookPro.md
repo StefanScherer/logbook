@@ -883,4 +883,5 @@ Installing ri documentation for compass-1.0.3
 
 # 2015-11-14
 * Update VMware Fusion 7.1.3
+* Update VirtualBox 5.0.10
 
