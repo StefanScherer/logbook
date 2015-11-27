@@ -886,3 +886,7 @@ Installing ri documentation for compass-1.0.3
 * Update VMware Fusion 7.1.3
 * Update VirtualBox 5.0.10
 
+# 2015-11-27
+* `brew cask install docker-compose`
+* `brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
+
