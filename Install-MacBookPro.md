@@ -890,3 +890,7 @@ Installing ri documentation for compass-1.0.3
 * `brew cask install docker-compose`
 * `brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
 
+# 2015-12-08
+* Update to docker 1.9.1, docker-compose 1.5.2
+* `brew cask update`
+* `brew cask install docker-compose`
