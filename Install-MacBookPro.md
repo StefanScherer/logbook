@@ -894,3 +894,43 @@ Installing ri documentation for compass-1.0.3
 * Update to docker 1.9.1, docker-compose 1.5.2
 * `brew cask update`
 * `brew cask install docker-compose`
+
+# 2015-12-21
+* Update Vagrant 1.8.0
+````
+$ vagrant plugin list
+* Plugins of Vagrant 1.7.4:
+```
+winrm (1.3.6)
+winrm-fs (0.2.3)
+vagrant-hostmanager (1.6.1)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-pristine (0.3.0)
+vagrant-share (1.1.4, system)
+vagrant-triggers (0.5.2)
+vagrant-vmware-fusion (4.0.2
+```
+* `mv .vagrant.d vagrant-d-174`
+* download latest Vagrant 1.8.0 dmg
+* `vagrant --version`
+* `cp vagrant-d-174/licens* .vagrant.d`
+* `cp vagrant-d-174/Vagrantfile .vagrant.d`
+* Add workaround for VMware Fusion 7.1.3 (only Professional has linked clones)
+* `vi .vagrant.d/Vagrantfile`
+```
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.provider "vmware_fusion" do |v|
+    v.linked_clone = false
+  end
+...
+end
+```
+
+$ vagrant plugin list
+vagrant-share (1.1.5, system)
+vagrant-vmware-fusion (4.0.5)
+
+```
