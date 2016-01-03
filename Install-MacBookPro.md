@@ -934,3 +934,13 @@ vagrant-share (1.1.5, system)
 vagrant-vmware-fusion (4.0.5)
 
 ```
+
+# 2016-01-03
+* Update docker-machine
+* `brew update; brew cleanup; brew cask cleanup`
+* `brew uninstall --force brew-cask; brew update`
+* `brew cask uninstall docker-machine`
+* `brew cask install docker-machine`
+* Update go 1.5.1 -> 1.5.2
+* `brew unlink go`
+* `brew install go`
