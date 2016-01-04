@@ -944,3 +944,7 @@ vagrant-vmware-fusion (4.0.5)
 * Update go 1.5.1 -> 1.5.2
 * `brew unlink go`
 * `brew install go`
+
+# 2016-01-04
+* Downgraded Vagrant back to 1.7.4 due to a problem with the OSX Vagrant box, see https://github.com/mitchellh/vagrant/issues/6792
+
