@@ -951,3 +951,5 @@ vagrant-vmware-fusion (4.0.5)
 # 2016-01-07
 * `sudo gem install travis`
 
+# 2016-01-22
+* Update VirtualBox 5.0.14
