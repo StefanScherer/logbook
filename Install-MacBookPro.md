@@ -953,3 +953,10 @@ vagrant-vmware-fusion (4.0.5)
 
 # 2016-01-22
 * Update VirtualBox 5.0.14
+
+# 2016-01-31
+* `brew install azure-cli`
+
+# 2016-02-04
+* `brew install watch`
+
