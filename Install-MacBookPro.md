@@ -960,3 +960,12 @@ vagrant-vmware-fusion (4.0.5)
 # 2016-02-04
 * `brew install watch`
 
+# 2016-02-06
+* Update docker 1.10, docker-compose 1.6, docker-machine 0.6
+
+# 2016-02-11
+* Install `shellcheck` and Atom linter
+* `apm install linter`
+* `apm install linter-shellcheck`
+* `brew install shellcheck`
+
