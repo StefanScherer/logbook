@@ -968,4 +968,3 @@ vagrant-vmware-fusion (4.0.5)
 * `apm install linter`
 * `apm install linter-shellcheck`
 * `brew install shellcheck`
-
