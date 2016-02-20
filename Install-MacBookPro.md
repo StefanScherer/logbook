@@ -968,3 +968,12 @@ vagrant-vmware-fusion (4.0.5)
 * `apm install linter`
 * `apm install linter-shellcheck`
 * `brew install shellcheck`
+
+# 2016-02-19
+* Update Vagrant 1.7.4 to 1.8.1
+```
+$ vagrant plugin list
+vagrant-share (1.1.5, system)
+vagrant-vmware-fusion (4.0.8)
+```
+* Update packer to 0.9.0-rc2
