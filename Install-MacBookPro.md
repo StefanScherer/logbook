@@ -977,3 +977,10 @@ vagrant-share (1.1.5, system)
 vagrant-vmware-fusion (4.0.8)
 ```
 * Update packer to 0.9.0-rc2
+
+# 2016-02-22
+* Update packer to 0.9.0
+
+# 2016-03-03
+* Update VMware Fusion Pro 8.1.0
+
