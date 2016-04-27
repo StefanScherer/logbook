@@ -984,3 +984,9 @@ vagrant-vmware-fusion (4.0.8)
 # 2016-03-03
 * Update VMware Fusion Pro 8.1.0
 
+# 2016-04-15
+* `brew cask install wireshark`
+
+# 2016-04-27
+* Update VMware Fusion Pro 8.1.1
+
