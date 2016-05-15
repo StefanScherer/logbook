@@ -990,3 +990,28 @@ vagrant-vmware-fusion (4.0.8)
 # 2016-04-27
 * Update VMware Fusion Pro 8.1.1
 
+# 2016-05-06
+* Fix scaleway-cli. A brew install scw didn't work, json parse error, the same for go get ...
+* brew uninstall scw
+```
+# prepare for first install and upgrade
+mkdir -p /usr/local/bin
+mv /usr/local/bin/scw /tmp/scw.old
+
+# get latest release
+wget "https://github.com/scaleway/scaleway-cli/releases/download/v1.9.0/scw_1.9.0_darwin_amd64.zip" -O /tmp/scw.zip
+unzip /tmp/scw.zip \*/scw -d /tmp
+mv /tmp/scw_*/scw /usr/local/bin
+rm -rf /tmp/scw.zip /tmp/scw_*_darwin_amd64
+
+# test
+scw version
+```
+
+# 2016-05-15
+* Update packer 0.10.1
+```
+wget https://releases.hashicorp.com/packer/0.10.1/packer_0.10.1_darwin_amd64.zip
+unzip packer_0.10.1_darwin_amd64.zip 
+mv packer /usr/local/bin/
+```
