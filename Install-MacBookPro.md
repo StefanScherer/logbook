@@ -1015,3 +1015,21 @@ wget https://releases.hashicorp.com/packer/0.10.1/packer_0.10.1_darwin_amd64.zip
 unzip packer_0.10.1_darwin_amd64.zip 
 mv packer /usr/local/bin/
 ```
+
+# 2016-06-01
+* Update some vagrant plugins
+```
+$ vagrant plugin list
+vagrant-azure (1.3.0)
+vagrant-digitalocean (0.8.0)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-pristine (0.3.0)
+vagrant-reload (0.0.1)
+vagrant-share (1.1.5, system)
+vagrant-vmware-fusion (4.0.8)
+~
+$ vagrant plugin update
+Updating installed plugins...
+Updated 'vagrant-digitalocean' to version '0.9.0'!
+Updated 'vagrant-vmware-fusion' to version '4.0.9'!
+```
