@@ -1033,3 +1033,11 @@ Updating installed plugins...
 Updated 'vagrant-digitalocean' to version '0.9.0'!
 Updated 'vagrant-vmware-fusion' to version '4.0.9'!
 ```
+
+# 2016-06-09
+* Install ODROID UART KIT driver
+* From http://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip
+* http://forum.odroid.com/viewtopic.php?f=53&t=841
+* ODROID: `screen /dev/tty.SLAB_USBtoUART 115200`
+* Adafruit RPi: `screen /dev/cu.usbserial 115200`
+
