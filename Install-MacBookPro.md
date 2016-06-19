@@ -1041,3 +1041,6 @@ Updated 'vagrant-vmware-fusion' to version '4.0.9'!
 * ODROID: `screen /dev/tty.SLAB_USBtoUART 115200`
 * Adafruit RPi: `screen /dev/cu.usbserial 115200`
 
+# 2016-06-19, DockerCon
+* `brew install mosh`
+* `brew install httping`
