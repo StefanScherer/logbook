@@ -1044,3 +1044,8 @@ Updated 'vagrant-vmware-fusion' to version '4.0.9'!
 # 2016-06-19, DockerCon
 * `brew install mosh`
 * `brew install httping`
+
+# 2016-07-09
+* After serveral tests with Vagrant 1.8.4 + winrm-fs 0.4.3 I gave up and installed Vagrant 1.8.1, but this also wasn't so easy as Win10/TP5 VM's abort provisioning.
+* Install Vagrant 1.8.1 with standard winrm-fs 0.2.3
+* Trick in provision script of Chocolatey is to `rm $PROFILE` to remove Chocolatey module
