@@ -1049,3 +1049,11 @@ Updated 'vagrant-vmware-fusion' to version '4.0.9'!
 * After serveral tests with Vagrant 1.8.4 + winrm-fs 0.4.3 I gave up and installed Vagrant 1.8.1, but this also wasn't so easy as Win10/TP5 VM's abort provisioning.
 * Install Vagrant 1.8.1 with standard winrm-fs 0.2.3
 * Trick in provision script of Chocolatey is to `rm $PROFILE` to remove Chocolatey module
+
+# 2016-07-29
+* Removed my last docker-machine: `docker-machine rm -f dev`
+* `brew upgrade`
+* `brew uninstall docker`
+* `brew uninstall docker-machine`
+* `brew uninstall docker-compose`
+* Installed Docker for Mac 1.12 from https://www.docker.com/products/docker#/mac
