@@ -1057,3 +1057,11 @@ Updated 'vagrant-vmware-fusion' to version '4.0.9'!
 * `brew uninstall docker-machine`
 * `brew uninstall docker-compose`
 * Installed Docker for Mac 1.12 from https://www.docker.com/products/docker#/mac
+
+# 2016-08-30
+* Update Node.js 6.5.0 with `nvm`
+
+# 2016-08-31
+* Install Azure CLI again
+* `npm install -g azure-cli`
+
