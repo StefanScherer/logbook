@@ -1065,3 +1065,5 @@ Updated 'vagrant-vmware-fusion' to version '4.0.9'!
 * Install Azure CLI again
 * `npm install -g azure-cli`
 
+# 2016-09-14
+* Update VMware Fusion Pro 8.5
