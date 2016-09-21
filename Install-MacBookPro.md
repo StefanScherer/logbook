@@ -1067,3 +1067,12 @@ Updated 'vagrant-vmware-fusion' to version '4.0.9'!
 
 # 2016-09-14
 * Update VMware Fusion Pro 8.5
+
+# 2016-09-21
+* Update Homebrew 1.0.0
+```
+$ brew update
+$ sudo chown root:wheel /usr/local
+$ brew --version
+```
+
