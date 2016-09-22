@@ -1075,4 +1075,4 @@ $ brew update
 $ sudo chown root:wheel /usr/local
 $ brew --version
 ```
-
+* Update to macOS Sierra 10.12
