@@ -1076,3 +1076,8 @@ $ sudo chown root:wheel /usr/local
 $ brew --version
 ```
 * Update to macOS Sierra 10.12
+
+# 2016-09-25
+* `brew upgrade`
+* Update packer 0.10.2 for Sierra with
+* `brew install packer`
