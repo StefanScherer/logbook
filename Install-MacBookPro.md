@@ -1081,3 +1081,6 @@ $ brew --version
 * `brew upgrade`
 * Update packer 0.10.2 for Sierra with
 * `brew install packer`
+
+# 2016-09-26
+* Update VirtualBox 5.0.26
