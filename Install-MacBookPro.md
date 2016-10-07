@@ -1084,3 +1084,27 @@ $ brew --version
 
 # 2016-09-26
 * Update VirtualBox 5.0.26
+
+# 2016-10-07
+* Update Vagrant 1.8.6
+* Before: Vagrant 1.8.1:
+```
+$ vagrant plugin list
+winrm (1.3.6)
+vagrant-cucumber (0.1.1)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-reload (0.0.1)
+vagrant-serverspec (1.1.1)
+vagrant-share (1.1.5, system)
+vagrant-vmware-fusion (4.0.11)
+```
+* After: Vagrant 1.8.6
+```
+$ vagrant plugin list
+vagrant-cucumber (0.1.1)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-reload (0.0.1)
+vagrant-serverspec (1.1.1)
+vagrant-share (1.1.5, system)
+vagrant-vmware-fusion (4.0.13)
+```
