@@ -1108,3 +1108,8 @@ vagrant-serverspec (1.1.1)
 vagrant-share (1.1.5, system)
 vagrant-vmware-fusion (4.0.13)
 ```
+
+# 2016-10-31
+* Update VMware Fusion Pro 8.5.1
+* Update VirtualBox 5.1.8
+
