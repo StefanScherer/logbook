@@ -1119,3 +1119,7 @@ vagrant-vmware-fusion (4.0.13)
 brew install scw
 brew link --overwrite scw
 ```
+* Install XQuartz 2.7.11
+```
+brew cask install xquartz
+```
