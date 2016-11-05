@@ -879,7 +879,7 @@ Installing ri documentation for compass-1.0.3
 * Update docker 1.9.0, docker-machine 0.5.0, docker-compose 1.5.0 with brew
 
 # 2015-11-12
-* Compile docker-machine from source as new plugins could not be used with brew docker-machine 0.5.0 
+* Compile docker-machine from source as new plugins could not be used with brew docker-machine 0.5.0
 
 # 2015-11-14
 * Update Atom 1.2.0
@@ -1012,7 +1012,7 @@ scw version
 * Update packer 0.10.1
 ```
 wget https://releases.hashicorp.com/packer/0.10.1/packer_0.10.1_darwin_amd64.zip
-unzip packer_0.10.1_darwin_amd64.zip 
+unzip packer_0.10.1_darwin_amd64.zip
 mv packer /usr/local/bin/
 ```
 
@@ -1113,3 +1113,9 @@ vagrant-vmware-fusion (4.0.13)
 * Update VMware Fusion Pro 8.5.1
 * Update VirtualBox 5.1.8
 
+# 2016-11-05
+* Update Scaleway cli 1.11
+```
+brew install scw
+brew link --overwrite scw
+```
