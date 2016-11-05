@@ -1123,3 +1123,7 @@ brew link --overwrite scw
 ```
 brew cask install xquartz
 ```
+Using X11 from a VM: https://learning-continuous-deployment.github.io/docker/images/dockerfile/2015/04/22/docker-gui-osx/
+```
+socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+```
