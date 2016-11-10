@@ -1127,3 +1127,21 @@ Using X11 from a VM: https://learning-continuous-deployment.github.io/docker/ima
 ```
 socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
 ```
+
+* 2016-11-10
+* Update Vagrant 1.8.7
+```
+sudo mv /opt/homebrew-cask/Caskroom/ /usr/local/Caskroom
+brew cask uninstall --force vagrant && brew cask install vagrant
+$ vagrant plugin list
+vagrant-cucumber (0.1.1)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-reload (0.0.1)
+vagrant-serverspec (1.1.1)
+vagrant-share (1.1.5, system)
+vagrant-vmware-fusion (4.0.14)
+```
+* Update Wireshark 2.2.1
+```
+brew cask uninstall --force wireshark && brew cask install wireshark
+```
