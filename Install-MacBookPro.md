@@ -1145,3 +1145,7 @@ vagrant-vmware-fusion (4.0.14)
 ```
 brew cask uninstall --force wireshark && brew cask install wireshark
 ```
+
+# 2016-11-14
+* Update `travis`:  `gem install travis`
+* Update VMware Fusion 8.5.2
