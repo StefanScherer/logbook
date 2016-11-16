@@ -1149,3 +1149,9 @@ brew cask uninstall --force wireshark && brew cask install wireshark
 # 2016-11-14
 * Update `travis`:  `gem install travis`
 * Update VMware Fusion 8.5.2
+
+# 2016-11-15
+* Fix problem with Vagrant 1.8.7
+```
+sudo rm /opt/vagrant/embedded/bin/curl
+```
