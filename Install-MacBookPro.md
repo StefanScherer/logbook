@@ -1155,3 +1155,6 @@ brew cask uninstall --force wireshark && brew cask install wireshark
 ```
 sudo rm /opt/vagrant/embedded/bin/curl
 ```
+
+* 2016-11-30
+* Update VMware Fusion Pro 8.5.3
