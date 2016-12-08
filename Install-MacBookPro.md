@@ -1156,5 +1156,32 @@ brew cask uninstall --force wireshark && brew cask install wireshark
 sudo rm /opt/vagrant/embedded/bin/curl
 ```
 
-* 2016-11-30
+# 2016-11-30
 * Update VMware Fusion Pro 8.5.3
+
+# 2016-12-08
+* Update Vagrant 1.8.7 -> 1.9.1
+```
+$ vagrant plugin list
+vagrant-cucumber (0.1.1)
+vagrant-multiprovider-snap (0.0.14)
+vagrant-reload (0.0.1)
+vagrant-serverspec (1.1.1)
+vagrant-share (1.1.5, system)
+vagrant-vmware-fusion (4.0.14)
+```
+* `brew cask reinstall vagrant`
+```
+$ vagrant version
+Installed Version: 1.9.1
+Latest Version: 1.9.1
+ 
+ You're running an up-to-date version of Vagrant!
+ ~
+ $ vagrant plugin list
+ vagrant-multiprovider-snap (0.0.14)
+ vagrant-reload (0.0.1)
+ vagrant-serverspec (1.1.1)
+ vagrant-share (1.1.6, system)
+ vagrant-vmware-fusion (4.0.15)
+```
