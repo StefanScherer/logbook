@@ -1185,3 +1185,6 @@ Latest Version: 1.9.1
  vagrant-share (1.1.6, system)
  vagrant-vmware-fusion (4.0.15)
 ```
+
+# 2016-12-12
+* `brew install terraform`
