@@ -1187,4 +1187,12 @@ Latest Version: 1.9.1
 ```
 
 # 2016-12-12
-* `brew install terraform`
+* `brew install terraform` Version 0.7.13
+
+# 2016-12-14
+* `brew upgrade packer` to Packer 0.12.0
+
+# 2016-12-21
+* Update VirtualBox 5.1.12 (download dmg)
+* `brew upgrade packer` to Packer 0.12.1
+* `brew upgrade terraform` to Terraform 0.8.1
