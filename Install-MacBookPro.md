@@ -1196,3 +1196,7 @@ Latest Version: 1.9.1
 * Update VirtualBox 5.1.12 (download dmg)
 * `brew upgrade packer` to Packer 0.12.1
 * `brew upgrade terraform` to Terraform 0.8.1
+
+# 2016-12-23
+* Install Visual Studio Code
+* `brew cask install visual-studio-code`
