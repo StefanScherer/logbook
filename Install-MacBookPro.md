@@ -1200,3 +1200,12 @@ Latest Version: 1.9.1
 # 2016-12-23
 * Install Visual Studio Code
 * `brew cask install visual-studio-code`
+
+# 2016-12-31
+* Install VirtualBox Extension Pack 5.1.12
+* Downgrade Packer 0.12.1 -> 0.12.0
+```
+$ brew list --versions packer
+packer 0.10.2 0.12.0 0.12.1
+$ brew switch packer 0.12.0
+```
