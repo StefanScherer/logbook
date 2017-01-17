@@ -1209,3 +1209,10 @@ $ brew list --versions packer
 packer 0.10.2 0.12.0 0.12.1
 $ brew switch packer 0.12.0
 ```
+
+# 2016-01-17
+* Disk Inventory X was lost, reinstall it
+```bash
+brew cask install disk-inventory-x
+```
+* Open Finder, right click Disk Inventory X edit settings to Open in Low Resolution 
