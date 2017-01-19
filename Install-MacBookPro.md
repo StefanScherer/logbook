@@ -1216,3 +1216,6 @@ $ brew switch packer 0.12.0
 brew cask install disk-inventory-x
 ```
 * Open Finder, right click Disk Inventory X edit settings to Open in Low Resolution 
+
+# 2016-01-19
+* Update Docker for Mac 1.13.0
