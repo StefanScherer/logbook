@@ -1219,3 +1219,7 @@ brew cask install disk-inventory-x
 
 # 2016-01-19
 * Update Docker for Mac 1.13.0
+
+# 2016-01-22
+* Update Terraform 0.8.4
+* `brew upgrade terraform`
