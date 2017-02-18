@@ -1210,16 +1210,22 @@ packer 0.10.2 0.12.0 0.12.1
 $ brew switch packer 0.12.0
 ```
 
-# 2016-01-17
+# 2017-01-17
 * Disk Inventory X was lost, reinstall it
 ```bash
 brew cask install disk-inventory-x
 ```
 * Open Finder, right click Disk Inventory X edit settings to Open in Low Resolution 
 
-# 2016-01-19
+# 2017-01-19
 * Update Docker for Mac 1.13.0
 
-# 2016-01-22
+# 2017-01-22
 * Update Terraform 0.8.4
 * `brew upgrade terraform`
+
+# 2017-02-18
+* Install UNetbootin
+```
+brew install Caskroom/cask/unetbootin
+```
