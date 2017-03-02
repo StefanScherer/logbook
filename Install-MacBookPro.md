@@ -1259,5 +1259,9 @@ $ mv vagrant-191/Vagrantfile .vagrant.d/
 
 # 2017-03-02
 * Update Packer 0.12.3
+```
+$ brew unlink packer
+$ brew install packer
+```
 * Update Docker for Mac 17.03.0-ce
 
