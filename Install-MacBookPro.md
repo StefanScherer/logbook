@@ -1175,7 +1175,7 @@ vagrant-vmware-fusion (4.0.14)
 $ vagrant version
 Installed Version: 1.9.1
 Latest Version: 1.9.1
- 
+
  You're running an up-to-date version of Vagrant!
  ~
  $ vagrant plugin list
@@ -1215,7 +1215,7 @@ $ brew switch packer 0.12.0
 ```bash
 brew cask install disk-inventory-x
 ```
-* Open Finder, right click Disk Inventory X edit settings to Open in Low Resolution 
+* Open Finder, right click Disk Inventory X edit settings to Open in Low Resolution
 
 # 2017-01-19
 * Update Docker for Mac 1.13.0
@@ -1229,3 +1229,35 @@ brew cask install disk-inventory-x
 ```
 brew install Caskroom/cask/unetbootin
 ```
+
+# 2017-03-01
+* Update Vagrant 1.9.2
+
+```
+$ vagrant plugin list
+vagrant-multiprovider-snap (0.0.14)
+vagrant-reload (0.0.1)
+vagrant-serverspec (1.1.1)
+vagrant-share (1.1.6, system)
+vagrant-vmware-fusion (4.0.15)
+$ mv .vagrant.d/ vagrant-d-191
+$ brew update
+$ brew cask reinstall vagrant
+$ rmdir .vagrant.d/boxes/
+$ mv vagrant-191/boxes/ .vagrant.d/
+$ vagrant plugin install vagrant-vmware-fusion
+$ vagrant plugin install vagrant-reload
+$ vagrant plugin install vagrant-mulitprovider-snap
+$ vagrant plugin list
+vagrant-multiprovider-snap (0.0.14)
+vagrant-reload (0.0.1)
+vagrant-share (1.1.7, system)
+vagrant-vmware-fusion (4.0.17)
+$ mv vagrant-191/license-vagrant-vmware-fusion.lic .vagrant.d/
+$ mv vagrant-191/Vagrantfile .vagrant.d/
+```
+
+# 2017-03-02
+* Update Packer 0.12.3
+* Update Docker for Mac 17.03.0-ce
+
