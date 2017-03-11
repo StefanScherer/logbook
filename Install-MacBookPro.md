@@ -1265,3 +1265,5 @@ $ brew install packer
 ```
 * Update Docker for Mac 17.03.0-ce
 
+# 2017-03-11
+* Update VMware Fusion Pro 8.5.4
