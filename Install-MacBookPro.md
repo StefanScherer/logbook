@@ -1267,3 +1267,7 @@ $ brew install packer
 
 # 2017-03-11
 * Update VMware Fusion Pro 8.5.4
+
+# 2017-03-14
+* Update VMware Fusion Pro 8.5.5
+
