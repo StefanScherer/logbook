@@ -1270,4 +1270,5 @@ $ brew install packer
 
 # 2017-03-14
 * Update VMware Fusion Pro 8.5.5
+* Install Ink2Go
 
