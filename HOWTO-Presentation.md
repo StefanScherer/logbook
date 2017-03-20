@@ -20,12 +20,5 @@
 - `⌘ F1` to mirror the desktop
 - Show live demo, eg. Safari tabs
 
-- Use Ink2Go to annotate on the desktop
-  - `⌥⇧ A` to enter drawing mode
-  - `P` to choose Pen
-  - `H` to choose Highlighter
-  - `⌘ X` to delete drawing
-  - `ESC` to quit drawing mode
-
 - `⌘ F1` to expand desktop again
 - Click on Keynote app and eventually press `⌥⌘ P` to continue presentation
