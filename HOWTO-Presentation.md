@@ -2,12 +2,11 @@
 
 ## Used software
 - Keynote
-- Ink2Go
 - Desktop apps like Safari etc.
 
 ## Before the presentation
-- Close Mailer, Slack, Twitter etc.
-- Open Ink2Go, hide toolbar
+- Close Mailer, Slack, Twitter, Screenhero, etc.
+- Run NoSleep, and enable NoSleep
 - Open Safari with the needed tabs
 - `⌘ +` to increase font in Safari tabs (eg. 3x)
 - Open Keynote
