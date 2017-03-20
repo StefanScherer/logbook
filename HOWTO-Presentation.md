@@ -7,7 +7,8 @@
 ## Before the presentation
 - Close Mailer, Slack, Twitter, Screenhero, etc.
 - Run NoSleep, and enable NoSleep
-- Open Safari with the needed tabs
+- Open Atom with source code, open only REAMDE.md as HTML view
+- Open Safari with the needed tabs, GH repo, CI builds, Docker Hub
 - `⌘ +` to increase font in Safari tabs (eg. 3x)
 - Open Keynote
 - `⌘ F1` to expand desktop across notebook and beamer/monitor
