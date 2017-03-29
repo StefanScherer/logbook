@@ -1272,3 +1272,7 @@ $ brew install packer
 * Update VMware Fusion Pro 8.5.5
 * Install Ink2Go
 
+# 2017-03-29
+* Update terraform 0.9.2
+* Update VMware Fusion Pro 8.5.6
+
