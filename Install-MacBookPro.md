@@ -1276,3 +1276,8 @@ $ brew install packer
 * Update terraform 0.9.2
 * Update VMware Fusion Pro 8.5.6
 
+# 2017-04-26
+* Install Codeship jet CLI
+```
+brew cask install jet
+```
