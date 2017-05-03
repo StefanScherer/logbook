@@ -1282,6 +1282,9 @@ $ brew install packer
 brew cask install jet
 ```
 
+# 2017-05-02
+* Update VirtualBox 5.1.22
+
 # 2017-05-03
 * Update Packer 1.0.0, Vagrant 1.9.4
 ```
