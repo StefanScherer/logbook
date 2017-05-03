@@ -1281,3 +1281,10 @@ $ brew install packer
 ```
 brew cask install jet
 ```
+
+# 2017-05-03
+* Update Packer 1.0.0, Vagrant 1.9.4
+```
+brew upgrade packer
+brew cask reinstall vagrant
+```
