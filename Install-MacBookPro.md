@@ -1291,3 +1291,7 @@ brew cask install jet
 brew upgrade packer
 brew cask reinstall vagrant
 ```
+* Update vagrant-vmware-fusion plugin 4.0.19
+```
+vagrant plugin update
+```
