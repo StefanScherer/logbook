@@ -1295,3 +1295,6 @@ brew cask reinstall vagrant
 ```
 vagrant plugin update
 ```
+
+# 2017-05-19
+* Update VMware Fusion Pro 8.5.7
