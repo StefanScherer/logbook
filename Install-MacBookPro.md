@@ -1298,3 +1298,9 @@ vagrant plugin update
 
 # 2017-05-19
 * Update VMware Fusion Pro 8.5.7
+
+# 2017-06-05
+* Update Scaleway cli to 1.13
+```
+brew upgrade scw
+```
