@@ -1304,3 +1304,9 @@ vagrant plugin update
 ```
 brew upgrade scw
 ```
+
+# 2017-06-07
+* Install new Azure CLI
+```
+curl -L https://aka.ms/InstallAzureCli | bash
+```
