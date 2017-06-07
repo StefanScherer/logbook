@@ -1310,3 +1310,8 @@ brew upgrade scw
 ```
 curl -L https://aka.ms/InstallAzureCli | bash
 ```
+* Update Terraform 0.9.6
+```
+brew install terraform
+brew link --overwrite terraform
+```
