@@ -1315,3 +1315,6 @@ curl -L https://aka.ms/InstallAzureCli | bash
 brew install terraform
 brew link --overwrite terraform
 ```
+
+# 2017-06-27
+* Update VMware Fusion 8.5.8
