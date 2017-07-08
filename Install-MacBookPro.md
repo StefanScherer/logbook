@@ -1318,3 +1318,15 @@ brew link --overwrite terraform
 
 # 2017-06-27
 * Update VMware Fusion 8.5.8
+
+# 2017-07-08
+* Update Vagrant 1.9.7
+```
+brew cask reinstall vagrant
+vagrant plugin install vagrant-mware-fusion
+vagrant plugin install vagrant-reload
+```
+* Update packer 1.0.2
+```
+brew upgrade packer
+```
