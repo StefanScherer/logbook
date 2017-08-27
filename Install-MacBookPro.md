@@ -1330,3 +1330,15 @@ vagrant plugin install vagrant-reload
 ```
 brew upgrade packer
 ```
+
+# 2017-08-27
+* Update 1Password 6.8.1
+* Update Docker for Mac 17.06.1
+* Update Packer 1.0.4, Vagrant 1.9.8, vagrant-vmware-fusion 4.0.24
+```
+brew upgrade packer
+brew cask reinstall vagrant
+vagrant plugin update
+```
+* Update Atom 1.19.3
+* Update VirtualBox 5.1.26
