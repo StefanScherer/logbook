@@ -1319,6 +1319,13 @@ brew link --overwrite terraform
 # 2017-06-27
 * Update VMware Fusion 8.5.8
 
+# 2017-07-05
+* Update docker-machine manually to 0.12.1 to fix nasty version check bug
+```
+rm /usr/local/bin/docker-machine
+curl -L https://github.com/docker/machine/releases/download/v0.12.1/docker-machine-`uname -s`-`uname -m` >/usr/local/bin/docker-machine &&   chmod +x /usr/local/bin/docker-machine
+```
+
 # 2017-07-08
 * Update Vagrant 1.9.7
 ```
@@ -1342,3 +1349,8 @@ vagrant plugin update
 ```
 * Update Atom 1.19.3
 * Update VirtualBox 5.1.26
+
+# 2017-09-07
+* OMG, docker-machine 0.12.0 again, this was Docker for Mac 17.06.1 :-(
+* Update Docker for Mac 17.06.2, now with fix docker-machine 0.12.2
+
