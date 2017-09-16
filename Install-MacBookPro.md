@@ -1354,3 +1354,9 @@ vagrant plugin update
 * OMG, docker-machine 0.12.0 again, this was Docker for Mac 17.06.1 :-(
 * Update Docker for Mac 17.06.2, now with fix docker-machine 0.12.2
 
+# 2017-09-09
+* Install screen recorder Kap
+```
+brew update
+brew cask install kap
+```
