@@ -1360,3 +1360,11 @@ vagrant plugin update
 brew update
 brew cask install kap
 ```
+
+# 2017-09-18
+* Update Packer 1.1.0, Vagrant 2.0.0, vagrant-vmware-fusion 4.0.24
+```
+brew upgrade packer
+brew cask reinstall vagrant
+vagrant plugin update
+```
