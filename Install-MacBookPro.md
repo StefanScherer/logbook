@@ -1368,3 +1368,14 @@ brew upgrade packer
 brew cask reinstall vagrant
 vagrant plugin update
 ```
+
+# 2017-10-03
+* Update Docker for Mac 17.09.0-ce with docker-machine 0.12.2
+* Update MacOS High Sierra
+
+# 2017-10-05
+* Update hub 2.2.9
+```
+brew unlink hub
+brew install hub
+```
