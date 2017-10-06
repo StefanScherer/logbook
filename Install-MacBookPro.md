@@ -1379,3 +1379,9 @@ vagrant plugin update
 brew unlink hub
 brew install hub
 ```
+
+# 2017-10-06
+* Cleanup VMware NAT -> empty `[incomingtcp]` in
+```
+sudo vi /Library/Preferences/VMware Fusion/vmnet8/nat.conf
+```
