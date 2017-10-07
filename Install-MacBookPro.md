@@ -918,6 +918,7 @@ vagrant-vmware-fusion (4.0.2
 * `cp vagrant-d-174/Vagrantfile .vagrant.d`
 * Add workaround for VMware Fusion 7.1.3 (only Professional has linked clones)
 * `vi .vagrant.d/Vagrantfile`
+
 ```
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
@@ -930,10 +931,10 @@ Vagrant.configure("2") do |config|
 end
 ```
 
+```
 $ vagrant plugin list
 vagrant-share (1.1.5, system)
 vagrant-vmware-fusion (4.0.5)
-
 ```
 
 # 2016-01-03
@@ -1129,7 +1130,7 @@ Using X11 from a VM: https://learning-continuous-deployment.github.io/docker/ima
 socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
 ```
 
-* 2016-11-10
+# 2016-11-10
 * Update Vagrant 1.8.7
 ```
 sudo mv /opt/homebrew-cask/Caskroom/ /usr/local/Caskroom
