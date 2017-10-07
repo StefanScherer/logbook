@@ -897,8 +897,9 @@ Installing ri documentation for compass-1.0.3
 
 # 2015-12-21
 * Update Vagrant 1.8.0
-````
+```
 $ vagrant plugin list
+```
 * Plugins of Vagrant 1.7.4:
 ```
 winrm (1.3.6)
