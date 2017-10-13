@@ -1387,3 +1387,9 @@ brew install hub
 ```
 sudo vi /Library/Preferences/VMware Fusion/vmnet8/nat.conf
 ```
+
+# 2017-10-13
+* Install telnet for port checks
+```
+brew install telnet
+```
