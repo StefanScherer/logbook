@@ -1393,3 +1393,9 @@ sudo vi /Library/Preferences/VMware Fusion/vmnet8/nat.conf
 ```
 brew install telnet
 ```
+
+# 2017-10-18
+* Update VMware Fusion 10.0.1
+* Update Vagrant VMware Fusion Plugin 5.0.0
+* Update Packer 1.1.1
+
