@@ -1399,3 +1399,8 @@ brew install telnet
 * Update Vagrant VMware Fusion Plugin 5.0.0
 * Update Packer 1.1.1
 
+# 2017-10-24
+* Install SizeUp (again) 
+```
+brew cask install sizeup
+```
