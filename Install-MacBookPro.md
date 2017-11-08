@@ -1404,3 +1404,21 @@ brew install telnet
 ```
 brew cask install sizeup
 ```
+
+# 2017-11-08
+* Update Vagrant 2.0.1
+```
+$ brew update
+$ brew cask reinstall vagrant
+$ mv .vagrant.d/ vagrant-d-200
+$ vagrant version
+$ rmdir .vagrant.d/boxes/
+$ mv vagrant-d-200/boxes/ .vagrant.d/
+$ cp vagrant-d-200/license-vagrant-vmware-fusion.lic .vagrant.d/
+$ vagrant plugin install vagrant-vmware-fusion
+$ vagrant plugin install vagrant-reload
+$ vagrant plugin list
+vagrant-reload (0.0.1)
+vagrant-share (1.1.9, system)
+vagrant-vmware-fusion (5.0.3)
+```
