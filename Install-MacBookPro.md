@@ -1422,3 +1422,6 @@ vagrant-reload (0.0.1)
 vagrant-share (1.1.9, system)
 vagrant-vmware-fusion (5.0.3)
 ```
+
+# 2017-11-28
+* Set password for root user
