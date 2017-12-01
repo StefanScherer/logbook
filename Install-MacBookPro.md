@@ -1425,3 +1425,10 @@ vagrant-vmware-fusion (5.0.3)
 
 # 2017-11-28
 * Set password for root user
+
+# 2017-12-01
+* Update Packer 1.1.2
+```
+brew upgrade packer
+```
+
