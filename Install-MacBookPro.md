@@ -1432,3 +1432,12 @@ vagrant-vmware-fusion (5.0.3)
 brew upgrade packer
 ```
 
+# 2017-12-03
+* Upgrade Golang 1.9.2
+```
+brew upgrade golang
+```
+* Install docker registry v2 command line client
+```
+go get github.com/jessfraz/reg
+```
