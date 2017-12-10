@@ -1363,6 +1363,12 @@ brew update
 brew cask install kap
 ```
 
+# 2017-09-11
+* Install gifsicle to scale down Retina GIF for Twitter and blog posts. (`gifsicle --scale 0.5x0.5 retina.gif -o rdy2tweet.gif`)
+```
+brew install gifsicle
+```
+
 # 2017-09-18
 * Update Packer 1.1.0, Vagrant 2.0.0, vagrant-vmware-fusion 4.0.24
 ```
