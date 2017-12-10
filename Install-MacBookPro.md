@@ -1447,3 +1447,21 @@ brew upgrade golang
 ```
 go get github.com/jessfraz/reg
 ```
+
+# 2017-12-10
+* Update VMware Fusion Plugin 5.0.4
+```
+$ vagrant plugin update
+Updating installed plugins...
+Fetching: vagrant-vmware-fusion-5.0.4.gem (100%)
+Building native extensions.  This could take a while...
+
+Vagrant is installing the VMware plugin which requires
+root access. You may be prompted for your password to
+complete setup.
+
+Password:
+Successfully uninstalled vagrant-vmware-fusion-5.0.3
+Updated 'vagrant-share' to version '1.1.9'!
+Updated 'vagrant-vmware-fusion' to version '5.0.4'!
+```
