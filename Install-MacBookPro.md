@@ -1465,3 +1465,14 @@ Successfully uninstalled vagrant-vmware-fusion-5.0.3
 Updated 'vagrant-share' to version '1.1.9'!
 Updated 'vagrant-vmware-fusion' to version '5.0.4'!
 ```
+
+# 2017-12-23
+* Install Node 8.9.3
+```
+nvm install 8.9.3
+nvm alias default 8.9.3
+```
+* Install Yarn
+```
+brew install yarn --without-node
+```
