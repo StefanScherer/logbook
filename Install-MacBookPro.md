@@ -1485,3 +1485,7 @@ nvm alias default 8.9.3
 ```
 brew install yarn --without-node
 ```
+* Update bundler
+```
+sudo gem install bundler
+```
