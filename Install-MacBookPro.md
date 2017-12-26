@@ -1489,3 +1489,8 @@ brew install yarn --without-node
 ```
 sudo gem install bundler
 ```
+
+# 2017-12-26
+* Update VMware Fusion Pro 10.1.0
+* Update VirtualBox 5.2.4
+
