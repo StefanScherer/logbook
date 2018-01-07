@@ -1494,3 +1494,8 @@ sudo gem install bundler
 * Update VMware Fusion Pro 10.1.0
 * Update VirtualBox 5.2.4
 
+# 2018-01-07
+* Update Azure CLI, Python 3, ...
+```
+brew install azure-cli
+```
