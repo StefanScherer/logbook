@@ -1499,3 +1499,11 @@ sudo gem install bundler
 ```
 brew install azure-cli
 ```
+
+# 2018-01-10
+* Update Docker Compose 1.18.0
+```
+rm /usr/local/bin/docker-compose
+brew install docker-compose
+docker-compose version
+```
