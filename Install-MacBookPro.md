@@ -1507,3 +1507,6 @@ rm /usr/local/bin/docker-compose
 brew install docker-compose
 docker-compose version
 ```
+
+# 2018-01-11
+* Update VMware Fusion Pro 10.1.1
