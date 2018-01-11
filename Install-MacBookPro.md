@@ -1510,3 +1510,4 @@ docker-compose version
 
 # 2018-01-11
 * Update VMware Fusion Pro 10.1.1
+* Update Docker for Mac 17.12.0-ce-mac46
