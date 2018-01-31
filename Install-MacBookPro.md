@@ -1511,3 +1511,9 @@ docker-compose version
 # 2018-01-11
 * Update VMware Fusion Pro 10.1.1
 * Update Docker for Mac 17.12.0-ce-mac46
+
+# 2018-01-31
+* Install Keycastr to record/show keystrokes in kap screen recordings
+```
+brew cask install keycastr
+```
