@@ -1517,3 +1517,7 @@ docker-compose version
 ```
 brew cask install keycastr
 ```
+
+# 2018-02-01
+* Update Kap to version 2.0.0
+
