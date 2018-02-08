@@ -1521,3 +1521,6 @@ brew cask install keycastr
 # 2018-02-01
 * Update Kap to version 2.0.0
 
+# 2018-02-08
+* Install UniFi 5.6.29 Controller from https://downloads.ubnt.com/unifi
+
