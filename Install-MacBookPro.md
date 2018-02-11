@@ -1524,3 +1524,21 @@ brew cask install keycastr
 # 2018-02-08
 * Install UniFi 5.6.29 Controller from https://downloads.ubnt.com/unifi
 
+# 2018-02-11
+* Update Packer 1.2.0
+```
+brew upgrade packer
+```
+* Update Vagrant 2.0.2
+```
+$ brew cask reinstall vagrant
+$ mv .vagrant.d/ vagrant-d-202
+$ vagrant version
+$ mv vagrant-d-202/boxes/ .vagrant.d/
+$ cp vagrant-d-202/license-vagrant-vmware-fusion.lic .vagrant.d/
+$ vagrant plugin install vagrant-vmware-fusion
+$ vagrant plugin install vagrant-reload
+$ vagrant plugin list
+vagrant-reload (0.0.1)
+vagrant-vmware-fusion (5.0.4)
+```
