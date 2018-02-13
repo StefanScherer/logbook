@@ -1550,3 +1550,7 @@ brew install gs
 brew install gv
 brew install mupdf
 ```
+* Downgrade Packer to 1.1.3, as version 1.2.0 has HIGH CPU load
+```
+brew switch packer 1.1.3
+```
