@@ -1542,3 +1542,11 @@ $ vagrant plugin list
 vagrant-reload (0.0.1)
 vagrant-vmware-fusion (5.0.4)
 ```
+
+# 2018-02-13
+* Install Ghostscript, gv, mupdf
+```
+brew install gs
+brew install gv
+brew install mupdf
+```
