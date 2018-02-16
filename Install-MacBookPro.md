@@ -1570,3 +1570,9 @@ brew upgrade git
 # 2018-02-16
 * Soundflower updated from https://www.fluxforge.com/blog/soundflower-os-x-10.11-10.12-macOS-sierra/
 
+# 2018-02-17
+* Repair Vagrant VMware plugin 5.0.4
+```
+vagrant plugin uninstall vagrant-vmware-fusion
+vagrant plugin install vagrant-vmware-fusion
+```
