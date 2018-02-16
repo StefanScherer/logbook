@@ -1554,3 +1554,15 @@ brew install mupdf
 ```
 brew switch packer 1.1.3
 ```
+
+# 2018-02-14
+* Update ImageMagick
+```
+brew upgrade imagemagick
+```
+
+# 2018-02-15
+* Update Git to 2.16.0
+```
+brew upgrade git
+```
