@@ -1566,3 +1566,7 @@ brew upgrade imagemagick
 ```
 brew upgrade git
 ```
+
+# 2018-02-16
+* Soundflower updated from https://www.fluxforge.com/blog/soundflower-os-x-10.11-10.12-macOS-sierra/
+
