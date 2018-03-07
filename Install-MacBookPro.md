@@ -1576,3 +1576,9 @@ brew upgrade git
 vagrant plugin uninstall vagrant-vmware-fusion
 vagrant plugin install vagrant-vmware-fusion
 ```
+
+# 2018-03-07
+* Update Packer 1.2.1
+```
+brew upgrade packer
+```
