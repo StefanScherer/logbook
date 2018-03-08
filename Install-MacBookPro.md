@@ -1582,3 +1582,7 @@ vagrant plugin install vagrant-vmware-fusion
 ```
 brew upgrade packer
 ```
+
+# 2018-03-08
+* Update VirtualBox 5.2.8
+
