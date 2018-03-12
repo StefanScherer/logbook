@@ -1596,3 +1596,14 @@ brew switch packer 1.1.3
 rm /usr/local/bin/docker-machine 
 brew install docker-machine
 ```
+* Update WireShark
+```
+$ rm -rf /Applications/Wireshark.app /usr/local/Caskroom/wireshark
+$ sudo /usr/sbin/dseditgroup -o delete access_bpf
+# Now brew thinks it's been uninstalled due to missing .app & cask dir
+$ brew cask uninstall wireshark
+Error: Cask 'wireshark' is not installed.
+Error: Uninstall incomplete.
+# Install & re-install now work!
+$ brew cask install wireshark
+```
