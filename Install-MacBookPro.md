@@ -1585,4 +1585,14 @@ brew upgrade packer
 
 # 2018-03-08
 * Update VirtualBox 5.2.8
+* Revert to Packer 1.1.3
+```
+brew switch packer 1.1.3
+```
 
+# 2018-03-12
+* Update docker-machine 0.14.0 as 0.13.0 creates wrong certs
+```
+rm /usr/local/bin/docker-machine 
+brew install docker-machine
+```
