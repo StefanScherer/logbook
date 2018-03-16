@@ -1607,3 +1607,9 @@ Error: Uninstall incomplete.
 # Install & re-install now work!
 $ brew cask install wireshark
 ```
+
+# 2018-03-16
+* Install OpenShift CLI
+```
+brew install openshift-cli
+```
