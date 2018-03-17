@@ -1613,3 +1613,10 @@ $ brew cask install wireshark
 ```
 brew install openshift-cli
 ```
+
+# 2018-03-17
+* Allow VMware Fusion Promiscuous Mode on macOS.
+  Needed for enabling Docker Swarm mode in headless Windows Docker machines.
+```
+sudo touch "/Library/Preferences/VMware Fusion/promiscAuthorized"
+```
