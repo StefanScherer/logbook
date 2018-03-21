@@ -1620,3 +1620,9 @@ brew install openshift-cli
 ```
 sudo touch "/Library/Preferences/VMware Fusion/promiscAuthorized"
 ```
+
+# 2018-03-21
+* Update Azure CLI 2.0.29
+```
+brew upgrade azure-cli
+```
