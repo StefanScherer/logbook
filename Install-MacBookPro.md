@@ -1994,3 +1994,17 @@ vagrant plugin install vagrant-reload
 ```
 vagrant plugin license vagrant-vmware-desktop ~/Desktop/license.lic
 ```
+
+# 2018-04-27
+* Update Vagrant 2.0.4
+```
+$ brew cask reinstall vagrant
+$ vagrant plugin repair
+$ vagrant plugin list
+vagrant-reload (0.0.1)
+vagrant-vmware-desktop (1.0.3)
+```
+* Update Packer 1.2.3
+```
+$ brew upgrade packer
+```
