@@ -2008,3 +2008,6 @@ vagrant-vmware-desktop (1.0.3)
 ```
 $ brew upgrade packer
 ```
+
+# 2018-05-02
+* Update Docker for Mac Version 18.03.1-ce
