@@ -2011,3 +2011,6 @@ $ brew upgrade packer
 
 # 2018-05-02
 * Update Docker for Mac Version 18.03.1-ce
+
+# 2018-05-26
+* Update Royal TSX 3.3
