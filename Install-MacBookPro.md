@@ -2014,3 +2014,12 @@ $ brew upgrade packer
 
 # 2018-05-26
 * Update Royal TSX 3.3
+
+# 2018-06-02
+* Document how to use the Trackpad without noisy clicking it.
+
+* Trackpad -> Klick durch Tippen
+![Trackpad](images/trackpad1.png)
+
+* Bedienungshilfen -> Maus & Trackpad -> Trackpad-Optionen -> Bewegungen aktivieren
+![Bedienungshilfen](images/trackpad2.png)
