@@ -2023,3 +2023,7 @@ $ brew upgrade packer
 
 * Bedienungshilfen -> Maus & Trackpad -> Trackpad-Optionen -> Bewegungen aktivieren
 ![Bedienungshilfen](images/trackpad2.png)
+
+# 2018-06-10
+* Install Duet Display from duetdisplay.com
+
