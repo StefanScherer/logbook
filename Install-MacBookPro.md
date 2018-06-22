@@ -2027,3 +2027,9 @@ $ brew upgrade packer
 # 2018-06-10
 * Install Duet Display from duetdisplay.com
 
+# 2018-06-17
+* Update 1Password 7
+
+# 2018-06-22
+* Intall 1Password command-line tool `op` from https://app-updates.agilebits.com/product_history/CLI
+
