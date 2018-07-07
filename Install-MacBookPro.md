@@ -2033,3 +2033,5 @@ $ brew upgrade packer
 # 2018-06-22
 * Intall 1Password command-line tool `op` from https://app-updates.agilebits.com/product_history/CLI
 
+# 2018-07-07
+* Update VMware Fusion Pro 10.1.2
