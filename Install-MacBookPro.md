@@ -2035,3 +2035,9 @@ $ brew upgrade packer
 
 # 2018-07-07
 * Update VMware Fusion Pro 10.1.2
+
+# 2018-07-17
+* Update Azure CLI 2.0.29 to 2.0.41
+```
+brew upgrade azure-cli
+```
