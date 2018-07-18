@@ -2041,3 +2041,22 @@ $ brew upgrade packer
 ```
 brew upgrade azure-cli
 ```
+
+# 2018-07-18
+* Update Vagrant 2.1.2, VMware plugin 1.0.4
+```
+$ vagrant plugin list
+vagrant-reload (0.0.1)
+vagrant-vmware-desktop (1.0.3)
+
+$ vagrant --version
+Vagrant 2.0.4
+
+$ brew cask reinstall vagrant
+
+$ vagrant plugin update
+Updating installed plugins...
+Fetching: vagrant-vmware-desktop-1.0.4.gem (100%)
+Successfully uninstalled vagrant-vmware-desktop-1.0.3
+Updated 'vagrant-vmware-desktop' to version '1.0.4'!
+```
