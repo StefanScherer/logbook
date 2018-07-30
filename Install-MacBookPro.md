@@ -2060,3 +2060,15 @@ Fetching: vagrant-vmware-desktop-1.0.4.gem (100%)
 Successfully uninstalled vagrant-vmware-desktop-1.0.3
 Updated 'vagrant-vmware-desktop' to version '1.0.4'!
 ```
+
+# 2018-07-21
+* Update VIM to 8.1
+```
+brew upgrade vim
+mv .vim .vim-old
+mv .vimrc .vimrc-old
+mv .viminfo .viminfo-old
+```
+
+# 2018-07-30
+* Update Docker CE 18.06.0-ce
