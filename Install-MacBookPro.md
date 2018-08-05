@@ -2247,3 +2247,9 @@ xz
 yarn
 drone/drone/drone
 ```
+
+# 2018-08-05
+* Install Vagrant VMware Utility 1.0.3
+```
+brew cask install vagrant-vmware-utility
+```
