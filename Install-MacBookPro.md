@@ -2253,3 +2253,11 @@ drone/drone/drone
 ```
 brew cask install vagrant-vmware-utility
 ```
+
+# 2018-08-15
+* Update VMware Fusion Pro 10.1.3
+* Update Microsoft Office
+* Update Packer 1.2.5
+```
+brew upgrade packer
+```
