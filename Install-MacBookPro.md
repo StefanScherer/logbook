@@ -2261,3 +2261,14 @@ brew cask install vagrant-vmware-utility
 ```
 brew upgrade packer
 ```
+
+# 2018-09-10
+* Update Docker 18.06.1-ce
+* Update jet 2.6.1, keycastr 0.9.6, unetbootin 661, vagrant 2.1.4, vagrant-vmware-utility 1.0.4, wireshark 2.6.3
+```
+brew cask upgrade
+```
+* Update gtksourceview 2.10.5_1 -> 2.10.5_3, mosh 1.2.6_2 -> 1.3.2_3, minicom 2.7 -> 2.7.1, openshift-cli 3.7.1 -> 3.10.0, gtk+ 2.24.31 -> 2.24.32_2, vim 8.1.0200 -> 8.1.0350, terraform 0.11.7 -> 0.11.8, libtiff 4.0.9_1 -> 4.0.9_4, pv 1.6.0 -> 1.6.6, gmp 6.1.2_1 -> 6.1.2_2, wget 1.18 -> 1.19.5, autoenv 0.2.0 -> 0.2.1, w3m 0.5.3 -> 0.5.3_5, pigz 2.3.3 -> 2.4, docker 17.12.0 -> 18.06.1, exiftool 10.20 -> 11.01, python@2 2.7.14_3 -> 2.7.15_1, lynx 2.8.8rel.2_1 -> 2.8.9rel.1, go 1.9.2 -> 1.11, azure-cli 2.0.41 -> 2.0.45, libpng 1.6.34 -> 1.6.35, hugo 0.18 -> 0.48, ghostscript 9.22 -> 9.24, gtk+3 3.20.9 -> 3.22.30, pixman 0.34.0 -> 0.34.0_1, gdbm 1.16 -> 1.18, mitmproxy 3.0.4 -> 4.0.4, cmake 3.6.2 -> 3.12.2, freetype 2.9 -> 2.9.1, p7zip 16.02 -> 16.02_1, pass 1.7.1 -> 1.7.2, libvorbis 1.3.5_1 -> 1.3.6, libunistring 0.9.8 -> 0.9.10, pango 1.40.3 -> 1.42.4, pygtk 2.24.0_1 -> 2.24.0_2, gdk-pixbuf 2.34.0 -> 2.38.0, bdw-gc 7.6.0 -> 7.6.8, icu4c 57.1 -> 62.1, atk 2.20.0 -> 2.30.0, harfbuzz 1.3.0 -> 1.8.8, glib 2.48.2 -> 2.58.0_1, nasm 2.12.02 -> 2.13.03, awscli 1.10.66 -> 1.16.10, urlview 0.9 -> 0.9-20, cairo 1.14.6_1 -> 1.14.12, webp 0.6.0 -> 1.0.0, gobject-introspection 1.48.0 -> 1.58.0, dosbox 0.74_1 -> 0.74-2, yarn 1.3.2 -> 1.9.4, nvm 0.33.0 -> 0.33.11, emacs 25.1 -> 26.1_1, fontconfig 2.12.1_2 -> 2.13.1, htop 0.8.2.8 -> 2.2.0, gtk-mac-integration 2.0.8 -> 2.1.2, macvim 8.0-110 -> 8.1-151, dockviz 0.5.0 -> 0.6.3, libcroco 0.6.11 -> 0.6.12, pygtksourceview 2.10.1_1 -> 2.10.1_3, gifsicle 1.90 -> 1.91, librsvg 2.40.16_1 -> 2.42.2_2, mercurial 3.9.1 -> 4.7.1, pwgen 2.07 -> 2.08, sphinx-doc 1.7.6 -> 1.7.9, tiger-vnc 1.8.0 -> 1.9.0, unrar 5.4.5 -> 5.6.6, asciinema 1.3.0 -> 2.0.1_1, mupdf 1.12.0 -> 1.13.0, hicolor-icon-theme 0.15 -> 0.17, watch 3.3.12 -> 3.3.15, oniguruma 6.4.0 -> 6.9.0, gd 2.2.4_1 -> 2.2.5, qrencode 4.0.0 -> 4.0.2, py2cairo 1.10.0_1 -> 1.17.1, cask 0.8.0 -> 0.8.4, pcre 8.39 -> 8.42, libepoxy 1.3.1 -> 1.5.2, scw 1.14 -> 1.17, bazaar 2.7.0 -> 2.7.0_1, docker-compose 1.18.0 -> 1.22.0_1, jpeg 9b -> 9c, nmap 7.12 -> 7.70, ssh-copy-id 7.3p1 -> 7.8p1, jq 1.5_2 -> 1.5_3, openssl 1.0.2o_2 -> 1.0.2p, imagemagick 7.0.7-22 -> 7.0.8-11_1, gnupg 1.4.21 -> 2.2.10, bison 3.0.4 -> 3.1, p11-kit 0.23.9 -> 0.23.14, pygobject 2.28.6_1 -> 2.28.7_1, protobuf 3.5.1_1 -> 3.6.0, git 2.17.1 -> 2.18.0, telnet 54.50.1 -> 60, jpeg-turbo 1.5.3 -> 2.0.0, gnutls 3.5.18 -> 3.5.19, gsettings-desktop-schemas 3.20.0 -> 3.28.1
+```
+brew upgrade
+```
