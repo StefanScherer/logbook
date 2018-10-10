@@ -2272,3 +2272,15 @@ brew cask upgrade
 ```
 brew upgrade
 ```
+
+# 2018-10-09
+* Update Vagrant 2.1.5, vagrant-vmware-desktop 2.0.0
+```
+brew cask reinstall vagrant
+vagrant plugin update
+brew cask reinstall vagrant-vmware-utility
+```
+* Update Packer 1.3.1
+```
+brew upgrade packer
+```
