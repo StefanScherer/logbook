@@ -2284,3 +2284,6 @@ brew cask reinstall vagrant-vmware-utility
 ```
 brew upgrade packer
 ```
+
+# 2018-10-23
+* Update macOS Mojave
