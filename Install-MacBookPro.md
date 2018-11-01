@@ -2306,3 +2306,4 @@ sudo chmod 755 /opt/vagrant-vmware-desktop/
 ```
 vagrant plugin license vagrant-vmware-desktop ~/Downloads/license.lic
 ```
+* Update Docker Community Edition 18.06.1-ce-mac73 from stable channel
