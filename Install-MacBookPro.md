@@ -2287,3 +2287,22 @@ brew upgrade packer
 
 # 2018-10-23
 * Update macOS Mojave
+
+# 2018-11-01
+* Update Vagrant 2.2.0, Vagrant VMware Utility 1.0.5, WireShark
+```
+brew cask upgrade
+```
+* Update VMware Fusion Pro 11.0
+* Update Vagrant plugins
+```
+vagrant plugin update
+```
+* Fix VMware Utility 1.0.5
+```
+sudo chmod 755 /opt/vagrant-vmware-desktop/
+```
+* Updated Vagrant VMware plugin license
+```
+vagrant plugin license vagrant-vmware-desktop ~/Downloads/license.lic
+```
