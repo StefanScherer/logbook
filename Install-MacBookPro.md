@@ -2311,3 +2311,8 @@ vagrant plugin license vagrant-vmware-desktop ~/Downloads/license.lic
 # 2018-11-11
 * Update VMware Fusion Pro 11.0.1
 
+# 2018-11-12
+* Update VirtualBox 5.2.20
+```
+brew cask reinstall virtualbox
+```
