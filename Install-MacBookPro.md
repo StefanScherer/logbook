@@ -2316,3 +2316,10 @@ vagrant plugin license vagrant-vmware-desktop ~/Downloads/license.lic
 ```
 brew cask reinstall virtualbox
 ```
+
+# 2018-11-18
+* Update macOS 10.14.1
+
+# 2018-11-19
+* Update Docker 2.0.0.0
+
