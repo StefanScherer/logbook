@@ -2323,3 +2323,6 @@ brew cask reinstall virtualbox
 # 2018-11-19
 * Update Docker 2.0.0.0
 
+# 2018-11-25
+* Update VMware Fusion Pro 11.0.2
+
