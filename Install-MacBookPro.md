@@ -2325,4 +2325,8 @@ brew cask reinstall virtualbox
 
 # 2018-11-25
 * Update VMware Fusion Pro 11.0.2
-
+* Installed `dive` - A tool for exploring each layer in a docker imag
+```
+brew tap wagoodman/dive
+brew install dive
+```
