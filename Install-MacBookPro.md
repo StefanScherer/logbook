@@ -2325,8 +2325,23 @@ brew cask reinstall virtualbox
 
 # 2018-11-25
 * Update VMware Fusion Pro 11.0.2
-* Installed `dive` - A tool for exploring each layer in a docker imag
+* Installed `dive` - A tool for exploring each layer in a docker image
 ```
 brew tap wagoodman/dive
 brew install dive
+```
+
+# 2018-12-09
+* Update Vagrant 2.2.2
+```
+brew update
+brew cask reinstall vagrant
+```
+* Update Vagrant VMware Desktop Plugin 2.0.2
+```
+vagrant plugin update
+```
+* Update Vagrant Vmware Utility 1.0.6
+```
+brew cask reinstall vagrant-vmware-utility
 ```
