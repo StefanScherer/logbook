@@ -2345,3 +2345,7 @@ vagrant plugin update
 ```
 brew cask reinstall vagrant-vmware-utility
 ```
+* Update Packer 1.3.3
+```
+brew upgrade packer
+```
