@@ -186,3 +186,16 @@ brew cask install virtualbox
 
 # 2018-12-14
 - Update Docker Desktop 2.0.0.0 mac81
+
+# 2019-01-02
+- Install Azure CLI
+```
+curl -L https://aka.ms/InstallAzureCli | bash
+```
+
+# 2019-01-03
+- Update VMware Fusion Pro 11 and license
+- Update Vagrant 2.2.2 from vagrantup.com
+- Update Vagrant VMware Desktop and license
+- Uninstall VirtualBox due to problems with vmrun
+
