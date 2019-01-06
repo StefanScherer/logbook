@@ -75,6 +75,7 @@ gpg --import stefan-pub
 gpg --list-keys
 gpg --edit-key MYOTHERPUBID trust quit
 ```
+- Barracuda VPN installed with script from plossys/vagrant/vpn/macos-vpn/scripts/install-barracuda-vpn.sh
 
 # 2018-08-12
 - Create Packer cache folder
