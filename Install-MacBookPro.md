@@ -2349,3 +2349,13 @@ brew cask reinstall vagrant-vmware-utility
 ```
 brew upgrade packer
 ```
+
+# 2019-01-13
+* Remove nvm
+```
+brew uninstall --force nvm
+rm -rf ~/.nvm
+```
+
+# 2019-01-15
+* Update Docker Desktop 2.0.0.2
