@@ -2359,3 +2359,17 @@ rm -rf ~/.nvm
 
 # 2019-01-15
 * Update Docker Desktop 2.0.0.2
+
+# 2019-01-24
+* Update Vagrant VMware Desktop plugin 2.0.3
+```
+$ vagrant plugin update
+Updating installed plugins...
+Fetching: vagrant-vmware-desktop-2.0.3.gem (100%)
+Successfully uninstalled vagrant-vmware-desktop-2.0.2
+Updated 'vagrant-vmware-desktop' to version '2.0.3'!
+```
+* Update Vagrant 2.2.3
+```
+brew cask reinstall vagrant
+```
