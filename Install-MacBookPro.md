@@ -4,7 +4,7 @@
 
 * Rechner eingeschaltet
 * Benutzer Stefan angelegt
-* Benutzer Carina und Katja angelegt, Kinderschutz aktiviert
+* Kinderkonten angelegt, Kinderschutz aktiviert
 * Benutzer Doris angelegt
 * Ins WLAN eingetragen
 * App Store -> Updates eingespielt, Mavericks bootet nochmal, weitere Updates eingespielt
