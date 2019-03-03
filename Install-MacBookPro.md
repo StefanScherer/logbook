@@ -2373,3 +2373,17 @@ Updated 'vagrant-vmware-desktop' to version '2.0.3'!
 ```
 brew cask reinstall vagrant
 ```
+
+# 2019-03-03
+* Install Inspec
+```
+brew cask install chef/chef/inspec
+```
+* Install Packer 1.3.5
+```
+rm /usr/local/bin/packer 
+wget https://releases.hashicorp.com/packer/1.3.5/packer_1.3.5_darwin_amd64.zip
+unzip packer_1.3.5_darwin_amd64.zip 
+mv packer /usr/local/bin/
+rm packer_1.3.5_darwin_amd64.zip 
+```
