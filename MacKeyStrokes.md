@@ -31,7 +31,7 @@ ctrl e : Zeilenende
 ⌥ l : @ - Klammeraffe
 
 ## Sonderzeichen / Emojis
-ctrl + ⌘ + SPACE : Emoji Picker
+ctrl + ⌘ + SPACE : Emoji Picker  
 ctrl + SPACE : Keyboard layout switch (EN / DE)
 
 ## Links
