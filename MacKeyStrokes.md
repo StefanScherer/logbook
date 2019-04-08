@@ -30,6 +30,9 @@ ctrl e : Zeilenende
 ⌥ n : ~ - Tilde  
 ⌥ l : @ - Klammeraffe
 
+## Sonderzeichen / Emojis
+ctrl + ⌘ + SPACE : Emoji Picker
+ctrl + SPACE : Keyboard layout switch (EN / DE)
 
 ## Links
 http://support.apple.com/kb/ht1343
