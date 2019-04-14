@@ -2387,3 +2387,6 @@ unzip packer_1.3.5_darwin_amd64.zip
 mv packer /usr/local/bin/
 rm packer_1.3.5_darwin_amd64.zip 
 ```
+
+# 2019-04-14
+* Update VMware Fusion Pro 11.0.3
