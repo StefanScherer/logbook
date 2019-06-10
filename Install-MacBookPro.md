@@ -2388,5 +2388,26 @@ mv packer /usr/local/bin/
 rm packer_1.3.5_darwin_amd64.zip 
 ```
 
+# 2019-03-05
+* Update Vagrant 2.2.4
+```
+brew cask reinstall vagrant
+```
+
 # 2019-04-14
 * Update VMware Fusion Pro 11.0.3
+
+# 2019-05-13
+* Update VMware Fusion Pro 11.1.0
+
+# 2019-05-22
+* Update Terraform 0.11.14
+```
+brew upgrade terraform
+```
+
+# 2019-06-10
+* Update Packer 1.4.1
+```
+brew upgrade packer
+```
