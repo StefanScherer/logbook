@@ -2411,3 +2411,9 @@ brew upgrade terraform
 ```
 brew upgrade packer
 ```
+
+# 2019-07-13
+* Update Vagrant 2.2.5
+```
+vagrant plugin expunge --reinstall
+```
