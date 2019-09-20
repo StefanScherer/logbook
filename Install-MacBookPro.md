@@ -2417,3 +2417,7 @@ brew upgrade packer
 ```
 vagrant plugin expunge --reinstall
 ```
+
+# 2019-09-20
+* Update VMware Fusion Pro 11.5.0
+
