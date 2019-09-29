@@ -2421,3 +2421,11 @@ vagrant plugin expunge --reinstall
 # 2019-09-20
 * Update VMware Fusion Pro 11.5.0
 
+# 2019-09-29
+* Update Azure CLI
+```
+sudo xcodebuild -license accept
+xcode-select --install
+brew upgrade azure-cli
+brew cleanup
+```
