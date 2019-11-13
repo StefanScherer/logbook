@@ -2429,3 +2429,6 @@ xcode-select --install
 brew upgrade azure-cli
 brew cleanup
 ```
+
+# 2019-11-13
+* Update VMware Fusion Pro 11.5.1
