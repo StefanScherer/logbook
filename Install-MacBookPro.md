@@ -2432,3 +2432,7 @@ brew cleanup
 
 # 2019-11-13
 * Update VMware Fusion Pro 11.5.1
+* Install macinbox
+```
+sudo gem install macinbox
+```
