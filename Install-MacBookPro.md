@@ -2436,3 +2436,10 @@ brew cleanup
 ```
 sudo gem install macinbox
 ```
+
+# 2020-02-02
+* Update Vagrant 2.2.7
+* Update VirtualBox 6.1.0
+
+# 2020-03-14
+* Update Docker Desktop 2.2.0.4
