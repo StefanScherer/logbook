@@ -2443,3 +2443,11 @@ sudo gem install macinbox
 
 # 2020-03-14
 * Update Docker Desktop 2.2.0.4
+
+# 2020-03-27
+* Replace battery
+
+# 2020-03-28
+* Update macOS Catalina 10.15.4
+* `brew upgrade`
+* Update VMware Fusion Pro 11.5.3
