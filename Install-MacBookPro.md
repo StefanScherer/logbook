@@ -2451,3 +2451,12 @@ sudo gem install macinbox
 * Update macOS Catalina 10.15.4
 * `brew upgrade`
 * Update VMware Fusion Pro 11.5.3
+
+# 2020-06-27
+* Update Vagrant 2.2.9, VMware plugin 2.1.1
+```
+brew cask reinstall vagrant-vmware-utility
+brew cask reinstall vagrant
+vagrant plugin update
+```
+* Update VMware Fusion Pro 11.5.5
