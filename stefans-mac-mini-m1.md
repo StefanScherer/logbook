@@ -7,3 +7,7 @@
 - put SSH pub key to GitHub
 - System Preferences -> Trackpad -> Tap to click
 - System Preferences -> Accessibility -> Pointer Control -> Mouse & Trackpad -> Trackpad Options... -> Enable dragging without drag lock
+- Install Homebrew 3
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
