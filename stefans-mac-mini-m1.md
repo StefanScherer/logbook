@@ -17,3 +17,11 @@ echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/stefanscherer/.zprofile
 brew install jq
 ```
 - Install Xcode 12.4
+- Back to bash
+```
+chsh -s /bin/bash
+```
+- Install dotfiles
+```
+git clone https://github.com/StefanScherer/dotfiles && cd dotfiles && ./sync.sh
+```
