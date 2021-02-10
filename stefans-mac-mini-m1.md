@@ -25,3 +25,11 @@ chsh -s /bin/bash
 ```
 git clone https://github.com/StefanScherer/dotfiles && cd dotfiles && ./sync.sh
 ```
+
+# 2021-02-10
+
+- Update macOS 11.2.1
+- Install Xcode command line tools again
+```
+xcode-select --install
+```
