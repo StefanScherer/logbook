@@ -38,3 +38,4 @@ xcode-select --install
 
 - Install Microsoft Remote Desktop
 - Install Parallels beta for Apple Silicon
+- Install Docker Desktop 3.1.0 (60984)
