@@ -33,3 +33,8 @@ git clone https://github.com/StefanScherer/dotfiles && cd dotfiles && ./sync.sh
 ```
 xcode-select --install
 ```
+
+# 2021-02-11
+
+- Install Microsoft Remote Desktop
+- Install Parallels beta for Apple Silicon
