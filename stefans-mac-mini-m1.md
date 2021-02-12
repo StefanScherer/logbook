@@ -39,3 +39,10 @@ xcode-select --install
 - Install Microsoft Remote Desktop
 - Install Parallels beta for Apple Silicon
 - Install Docker Desktop 3.1.0 (60984)
+
+# 2021-02-12
+
+- Install Rectangle (SizeUp, Spectacle replacement)
+```
+brew install --cask rectangle
+```
