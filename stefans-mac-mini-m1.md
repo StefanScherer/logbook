@@ -25,6 +25,7 @@ chsh -s /bin/bash
 ```
 git clone https://github.com/StefanScherer/dotfiles && cd dotfiles && ./sync.sh
 ```
+- Install Visual Studio Code Insiders
 
 # 2021-02-10
 
