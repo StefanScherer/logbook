@@ -40,6 +40,7 @@ xcode-select --install
 - Install Microsoft Remote Desktop
 - Install Parallels beta for Apple Silicon
 - Install Docker Desktop 3.1.0 (60984)
+- Install Slack
 
 # 2021-02-12
 
@@ -47,3 +48,8 @@ xcode-select --install
 ```
 brew install --cask rectangle
 ```
+- Install Go 1.16rc1
+```
+brew install go
+```
+
