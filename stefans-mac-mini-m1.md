@@ -53,3 +53,8 @@ brew install --cask rectangle
 brew install go
 ```
 
+# 2021-02-17
+- Update Go 1.16
+```
+brew install go
+```
