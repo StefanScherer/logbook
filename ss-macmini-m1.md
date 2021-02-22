@@ -63,4 +63,7 @@ brew uninstall go
 ```
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 ```
-
+- Fix using Xcode
+```
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
