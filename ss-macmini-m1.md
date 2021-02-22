@@ -67,3 +67,9 @@ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 ```
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 ```
+- Create GPG Key with passphrase
+```
+gpg --full-generate-key
+gpg --list-secret-keys --keyid-format LONG
+gpg --armor --export xxxxxxxx
+```
