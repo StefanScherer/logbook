@@ -54,8 +54,13 @@ brew install go
 ```
 
 # 2021-02-22
--  Remove Go 1.16rc1
+- Remove Go 1.16rc1
 ```
 brew uninstall go
 ```
--  Install Go 1.16 from https://golang.org/doc/install?download=go1.16.darwin-arm64.pkg
+- Install Go 1.16 from https://golang.org/doc/install?download=go1.16.darwin-arm64.pkg
+- Fix using Xcode
+```
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
+
