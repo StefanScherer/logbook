@@ -73,3 +73,10 @@ gpg --full-generate-key
 gpg --list-secret-keys --keyid-format LONG
 gpg --armor --export xxxxxxxx
 ```
+
+# 2021-02-26
+- Install Ansible
+```
+brew install ansible ansible-lint
+brew install hudochenkov/sshpass/sshpass
+```
