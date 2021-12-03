@@ -6,3 +6,4 @@
 * User `stefan` created
 * install Docker Desktop 4.3.0 without Rosetta 2!!
 * install 1Password
+* set the Trackpad options to tap only instead of a real hard click
