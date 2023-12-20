@@ -17,8 +17,8 @@ ctrl e : Zeilenende
 
 ## Finder
 ⌘ ▲ : ein Verzeichnis hoch  
-⌘ ▼ : ins selektierte Verzeichnis runter
-⌘ SHFIT . : versteckte Verzeichnisse und Dateien anzeigen
+⌘ ▼ : ins selektierte Verzeichnis runter  
+⌘ ⇧ . : versteckte Verzeichnisse und Dateien anzeigen
 
 ## Zeichen
 ⇧ 7 : / - Unix Slash  
