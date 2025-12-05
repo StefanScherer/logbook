@@ -3,6 +3,7 @@
 ## Screenshot
 ⌘ ⇧ 3 : ganzer Bildschirm  
 ⌘ ⇧ 4 : Ausschnitt
+⌘ ⇧ 4 Space : aktuelles Fenster (mit Schattenwurf)
 
 ## Taskwechsel
 ⌘ Tab  
@@ -14,6 +15,10 @@ ctrl a : Zeilenanfang
 ctrl e : Zeilenende  
 ⌥ ◀︎ : ein Wort links  
 ⌥ ▶︎ : ein Wort rechts
+
+## Spotlight Suche
+
+⌘ Space : z.B. nach einer App suchen und starten
 
 ## Finder
 ⌘ ▲ : ein Verzeichnis hoch  
