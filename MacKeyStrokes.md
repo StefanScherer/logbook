@@ -2,7 +2,7 @@
 
 ## Screenshot
 ⌘ ⇧ 3 : ganzer Bildschirm  
-⌘ ⇧ 4 : Ausschnitt
+⌘ ⇧ 4 : Ausschnitt  
 ⌘ ⇧ 4 Space : aktuelles Fenster (mit Schattenwurf)
 
 ## Taskwechsel
